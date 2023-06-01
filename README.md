@@ -1,2 +1,2 @@
 # PlayPal-BE
-mod3 group consultancy project BE app
+Mod3 Group Consultancy Project BE App
