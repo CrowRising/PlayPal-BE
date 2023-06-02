@@ -8,7 +8,7 @@ RSpec.describe PlaygroundService do
 
       expect(playground_results).to be_a(Hash)
       expect(playground_results).to have_key(:results)
-      require 'pry'; binding.pry
+      # require 'pry'; binding.pry
       playground_results[:results].each do |playground|
         expect(playground).to have_key(:formatted_address)
         expect(playground[:formatted_address]).to be_a(String)
