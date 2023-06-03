@@ -10,20 +10,20 @@ RSpec.describe 'Reviews', type: :request do
       expect(response).to have_http_status(:success)
       expect(JSON.parse(response.body).size).to eq(10)
 
-      reviews = JSON.parse(response.body)
+      reviews = JSON.parse(response.body, symbolize_names: true)
       reviews.each do |review|
-        expect(review).to have_key('id')
-        expect(review['id']).to be_a(Integer)
-        expect(review).to have_key('user_id')
-        expect(review['user_id']).to be_a(Integer)
-        expect(review).to have_key('playground_id')
-        expect(review['playground_id']).to be_a(Integer)
-        expect(review).to have_key('rating')
-        expect(review['rating']).to be_a(Integer)
-        expect(review).to have_key('comment')
-        expect(review['comment']).to be_a(String)
-        expect(review).to have_key('image')
-        expect(review['image']).to be_a(String)
+        expect(review).to have_key(:id)
+        expect(review[:id]).to be_a(Integer)
+        expect(review).to have_key(:user_id)
+        expect(review[:user_id]).to be_a(Integer)
+        expect(review).to have_key(:playground_id)
+        expect(review[:playground_id]).to be_a(Integer)
+        expect(review).to have_key(:rating)
+        expect(review[:rating]).to be_a(Integer)
+        expect(review).to have_key(:comment)
+        expect(review[:comment]).to be_a(String)
+        expect(review).to have_key(:image)
+        expect(review[:image]).to be_a(String)
       end
     end
   end
