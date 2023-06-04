@@ -1,0 +1,959 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/textsearch/json?key=<GOOGLE_API_KEY>&query=playgrounds%20parks%2080123&radius=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 04 Jun 2023 20:32:04 GMT
+      Expires:
+      - Sun, 04 Jun 2023 20:37:04 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - scaffolding on HTTPServer2
+      Content-Length:
+      - '37393'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=468
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "next_page_token" : "AZose0mifH4BV9zaDCusHndG6wcSY0W5zihiNsZ14uUCT9bR91wQXetbvpektUSR1WHCXhyDRp0vLwBeCbBCh6yo8O55CE_ntmgwapiasuf6shNH9eZ4S8OVtrIQ8VCQaOrx4yEM6CxuQXALgz12S78jNdxezA-pgLRFnVTKXtkPBlaxWWiO1nrMhXmMKzup-L88XoOIFzezNMX9TzkMTBY6zwnHns2ay1HG_KCmINtHfw5ONnJMozyHcO7vjlNMLP0U-ebQ-1wt_azOih8sMKz--0II-Fvt7hyyDXJBQ5LRVgroTFY3rDI8_mMdZAPl8LH5aUq2LbL6RRCOGp3elNqnO-iRuqcW37hJnCT5qcJPaCCgN50YcgNPYHu69GGAsCmiGoQb2l4PDLsXEFTww-pAO1HVPZLO",
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "7306 W Bowles Ave, Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.60645460000001,
+                       "lng" : -105.0791129
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.60784942989272,
+                          "lng" : -105.0777121201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.60514977010727,
+                          "lng" : -105.0804117798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Robert F. Clement Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3264,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/118064829741878132096\"\u003ePaul Nelson\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0nbIgvEfQAYsaXtFjLJ4DDgUvvKN4tU0C0GiRcnKjTlZ8V04pQkl2zVZgmsK0pl6pUKIfULuMmRpt-9Ua90UPtFmiIfC5iTLHB25I-RoUvE-kICvtVKkgfAQy6OhcuB1V5QreY6yQhf5T5TTgQ0cXSaxUdEb2cYjbqZeCLcTbGArunC",
+                       "width" : 2448
+                    }
+                 ],
+                 "place_id" : "ChIJk4E8CwB_a4cRQrSQeNwQmTA",
+                 "plus_code" : {
+                    "compound_code" : "JW4C+H9 Littleton, Colorado",
+                    "global_code" : "85FPJW4C+H9"
+                 },
+                 "rating" : 4.6,
+                 "reference" : "ChIJk4E8CwB_a4cRQrSQeNwQmTA",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 3247
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "3400 W Berry Ave, Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.6167587,
+                       "lng" : -105.0332538
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.61825387989272,
+                          "lng" : -105.0319030201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.61555422010728,
+                          "lng" : -105.0346026798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Berry Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1080,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/109890082498074315857\"\u003eJuan M\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0kCXS_c973sczvZMVq9uSU4w99SmrD8FlDWA0KBzeG2FKzXPDnYgrkPRBgM5QVy08lvmVTHKfbQILig4czLdYr-FJBSalCShrYgTCFr03o6nVYHLR9kZJvdkdnXnjzUMwit3Pnv7pHJHC94WZ3TmRox5v2tKuEZYM00Hma5uWIb81EU",
+                       "width" : 1920
+                    }
+                 ],
+                 "place_id" : "ChIJe0OaGtZ_a4cRr5gzih5R614",
+                 "plus_code" : {
+                    "compound_code" : "JX88+PM Littleton, Colorado",
+                    "global_code" : "85FPJX88+PM"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJe0OaGtZ_a4cRr5gzih5R614",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 95
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "West Crestline Avenue Unnamed Rd, Littleton, CO 80120, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.618775,
+                       "lng" : -105.0139192
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.62012482989272,
+                          "lng" : -105.0125693701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.61742517010728,
+                          "lng" : -105.0152690298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Geneva Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/102639485763515749318\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0l2les-B-jl8cuq7kU7WUnZux-M4rxKy_tsNUuyPQYwP1X-1qa4Ctzz2BE_6HgC_9LCW5sBGAAoNoFDoYUJTEC5Z7q6_EEJXJS3S-v5WRNIELWWn-feZTyfobXn7rwZ2scrgqBFGaJeDz9zOUONu9gDElzmssApQhYYW5uGjaXWFXG4",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJ7xKZpzaAbIcRWZCCNvy8Ml8",
+                 "plus_code" : {
+                    "compound_code" : "JX9P+GC Littleton, Colorado",
+                    "global_code" : "85FPJX9P+GC"
+                 },
+                 "rating" : 4.2,
+                 "reference" : "ChIJ7xKZpzaAbIcRWZCCNvy8Ml8",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 52
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "7998 W Peakview Dr, Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.601204,
+                       "lng" : -105.085044
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.60259327989272,
+                          "lng" : -105.0836953201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.59989362010728,
+                          "lng" : -105.0863949798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Woodmar Square Park",
+                 "opening_hours" : {},
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/116437621078881918483\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0msbfvfvhuQpcifBfzM28Tl5F3-Z82sEEmycEdktKFDGLVxV00Ct_xfKWlKMQPBMbdNlz-Jsx4tEmJ7n8igdHlx1_eM2TrRS5jBrPg_xt6UdNCd0r3fwpjq2uOKZs4ZAQV7t9-To8TwVS7JybMv5ZxBPwUwUwyI0Jryk3nKjBHoo_4l",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJC_AIk1J_a4cR3nUZhX7xW74",
+                 "plus_code" : {
+                    "compound_code" : "JW27+FX Littleton, Colorado",
+                    "global_code" : "85FPJW27+FX"
+                 },
+                 "rating" : 4.3,
+                 "reference" : "ChIJC_AIk1J_a4cR3nUZhX7xW74",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 9
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "4400 S Wolff St, Denver, CO 80236, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.6377102,
+                       "lng" : -105.0473076
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.63931352989272,
+                          "lng" : -105.04631095
+                       },
+                       "southwest" : {
+                          "lat" : 39.63661387010728,
+                          "lng" : -105.05029755
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Pinehurst Park",
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103572315704428256631\"\u003eAdrian Barajas\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0lImZUDJp98F6NVZdskhE9mS5-2_Cc4LhTihLRKe-nb_tej3HOVO5b0vTh1zGDKBqb07LKFramvY1mkS3LPKnBQFQtbpA3PB-HViJmonmEdxl1S8smByTKS5bPVZQwl4qqDCtVE6JFuHuIc5x_czzNr9MyXY67Ggt-ZJT9pBsBXY3ZR",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJm23NsYt_a4cRAv3gjlLp78g",
+                 "plus_code" : {
+                    "compound_code" : "JXQ3+33 Denver, Colorado",
+                    "global_code" : "85FPJXQ3+33"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJm23NsYt_a4cRAv3gjlLp78g",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 11
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.611019,
+                       "lng" : -105.0385926
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.61236882989272,
+                          "lng" : -105.0372427701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.60966917010728,
+                          "lng" : -105.0399424298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Valley Vista Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJE_v8RdN_a4cRGuBzI5V80O4",
+                 "plus_code" : {
+                    "compound_code" : "JX66+CH Littleton, Colorado",
+                    "global_code" : "85FPJX66+CH"
+                 },
+                 "rating" : 0,
+                 "reference" : "ChIJE_v8RdN_a4cRGuBzI5V80O4",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 0
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "2250 Main St, Littleton, CO 80120, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.6129973,
+                       "lng" : -105.0146496
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.61434212989273,
+                          "lng" : -105.0132839701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.61164247010728,
+                          "lng" : -105.0159836298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Bega Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2976,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112242460347803194009\"\u003eEugene Feeney\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0kKYFRdiCIe9HAR_jvuudlIFHy91P4SN3IHx2b_Vo6EuoDs_zH3D3lD1eBBbZqz4A63GJpb3rO93qtYzNx9mXo0yHkGBhtjjpPncbeVSzsb3TyHQci65tVgqRCqHGvzS6zDWYGkV67ZGwON27QjAUYt-U5BRrqCPVBI52Kxv1NN9Sr8",
+                       "width" : 3968
+                    }
+                 ],
+                 "place_id" : "ChIJi9JzVsuBbIcRRMDR-a5pXeU",
+                 "plus_code" : {
+                    "compound_code" : "JX7P+54 Littleton, Colorado",
+                    "global_code" : "85FPJX7P+54"
+                 },
+                 "rating" : 4.1,
+                 "reference" : "ChIJi9JzVsuBbIcRRMDR-a5pXeU",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 85
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.6038969,
+                       "lng" : -105.0716331
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.60550592989272,
+                          "lng" : -105.0702808201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.60280627010728,
+                          "lng" : -105.0729804798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Leawood Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3036,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/113645511864599415292\"\u003enoah mcelroy\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0lTjU6ZEFTU6mmIb5IOUUpPV66CXOEKYdbnxYVz9JIPwkPffY-KLgmmITyWepEAPpc_y4EVJZkRPk1HZI05wQlXO4q8egy7oOH5KGoeaiWl0WgKQrdphlA-91MbR9QoypLnGwFwImwEiGUVhEc1CHqQkW2VBYPpIQSMpGCQK2OfYIBb",
+                       "width" : 4048
+                    }
+                 ],
+                 "place_id" : "ChIJ1TjMDVN-a4cR0Z6b1nK3lyM",
+                 "plus_code" : {
+                    "compound_code" : "JW3H+H8 Littleton, Colorado",
+                    "global_code" : "85FPJW3H+H8"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJ1TjMDVN-a4cR0Z6b1nK3lyM",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 130
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "6450 S Brentwood St, Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.5997558,
+                       "lng" : -105.0909974
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.60110562989272,
+                          "lng" : -105.0896475701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.59840597010728,
+                          "lng" : -105.0923472298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Lilley Pad Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2448,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/106501933950647869417\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0n92tWKyRkxKCXCgP9WVUKh9HcIJ5OANYFjmefaHP4UYT4okLbImcsMUcnMZhSOXHKZaPvcrTpg2avP8EQALFM5YWj39lFvlZovANXusdnQYD4qQnbD9bycDMeOZTrx3JoExd5h_3hNTlRPAZBhc-I6YPs1ikiSpksLIAqHtRwubk5l",
+                       "width" : 3264
+                    }
+                 ],
+                 "place_id" : "ChIJmdPc0Px-a4cR2buxNZK3IQU",
+                 "plus_code" : {
+                    "compound_code" : "HWX5+WJ Littleton, Colorado",
+                    "global_code" : "85FPHWX5+WJ"
+                 },
+                 "rating" : 4.2,
+                 "reference" : "ChIJmdPc0Px-a4cR2buxNZK3IQU",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 16
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "5151 S Lowell Blvd, Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.6233097,
+                       "lng" : -105.035628
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.62466087989272,
+                          "lng" : -105.0340903201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.62196122010727,
+                          "lng" : -105.0367899798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Harlow Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103192201642473087371\"\u003eDebbie Asmus\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0kbiQmd_42uNycTVhfcAcpK4VBPsoIaCO6biY7Vpn6zcVMg8_d_b3Ruf_wNbzc0d5mm9zOx1sHn7oJGPbo3hWVJmG8L6xwWQHLSf02Krs0XFQRKeaX0Pv6nCMSbcSlsYLwQS4Hyzg1lBcPm8f4xmBjIYrz0MybctNl04EqrAhWyuPA",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJMyk8MPx_a4cR3I1OwGSkHt0",
+                 "plus_code" : {
+                    "compound_code" : "JXF7+8P Littleton, Colorado",
+                    "global_code" : "85FPJXF7+8P"
+                 },
+                 "rating" : 4.7,
+                 "reference" : "ChIJMyk8MPx_a4cR3I1OwGSkHt0",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 40
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "5900-5916 W Grant Ranch Blvd, Denver, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.6139483,
+                       "lng" : -105.0607438
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.61547497989272,
+                          "lng" : -105.0594478201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.61277532010727,
+                          "lng" : -105.0621474798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Sunset Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/109799957255279282702\"\u003eBaDeR ALHaMMaD\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0lKiUklWk9YYM8BXLG7R84qC61fDkXYgKhVv0EgIdYQzh5LW9PJjpUmzkiuCx86VQbXVzeKSJheZ_qlJK3Wurtr1vRWi1zzYpZYvoFJI6GWNY9R-tEflbYzafDF66DaiopiHmVtX_3v-yNlYcqjiv_KmIO-5ZqQqgWXPXkAP1LcJOhm",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJy9NrxrZ_a4cRWx5vKfEzOec",
+                 "plus_code" : {
+                    "compound_code" : "JW7Q+HP Denver, Colorado",
+                    "global_code" : "85FPJW7Q+HP"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJy9NrxrZ_a4cRWx5vKfEzOec",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 35
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "5501 S Federal Blvd, Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.614383,
+                       "lng" : -105.029156
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.61569712989272,
+                          "lng" : -105.0275556701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.61299747010727,
+                          "lng" : -105.0302553298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Bowles Grove Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1080,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/110369812859848428938\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0mGcsBx_Zi_L9iyCIkv4fgTOKAJafhgCXyE46M7GAod4Qxb-cGgXSFHe0WF3pRP6lHUBg842SOOnf1T3l8AWSwCK7cLNnKhhpQMn_JC3Tm4aEIGTo-CvVLep2nvghdzOc9Hnfxobu-gusg8ufJfghNxAjwL8GVRCE3q5iuSErhbZ17g",
+                       "width" : 1920
+                    }
+                 ],
+                 "place_id" : "ChIJD3cErCuAbIcRzvTnLztHCXI",
+                 "plus_code" : {
+                    "compound_code" : "JX7C+Q8 Littleton, Colorado",
+                    "global_code" : "85FPJX7C+Q8"
+                 },
+                 "rating" : 4.2,
+                 "reference" : "ChIJD3cErCuAbIcRzvTnLztHCXI",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 175
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "6357 S Estes St, Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.6010823,
+                       "lng" : -105.0962968
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.60240732989272,
+                          "lng" : -105.0948816201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.59970767010728,
+                          "lng" : -105.0975812798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Chief Colorow Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3264,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112465928931108767552\"\u003ePaul Hitzges\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0muqMQui4gAMBOsDjlVW8t_qR47ku_FUKZSi572l2QLg7VgHWyNuTxQ5qvJ3p3fbaXZ3bn3f9g2QLiSx8T7abiQZmqa78nLn6Rd2UvKgJGwdqkKXTK-rxRjYOaQg0iw3XdOutZW1nUxlUvG7G6sIGnJMiw_aBnNNObcrN3MkJBT3baK",
+                       "width" : 2448
+                    }
+                 ],
+                 "place_id" : "ChIJhZhWM-B-a4cRzvarUHbx-qM",
+                 "plus_code" : {
+                    "compound_code" : "JW23+CF Littleton, Colorado",
+                    "global_code" : "85FPJW23+CF"
+                 },
+                 "rating" : 4.3,
+                 "reference" : "ChIJhZhWM-B-a4cRzvarUHbx-qM",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 45
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.6041684,
+                       "lng" : -105.1065271
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.60559067989273,
+                          "lng" : -105.1055744201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.60289102010728,
+                          "lng" : -105.1082740798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Lilly Gulch Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/116257981050618771582\"\u003eJanelle Cluff\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0kTHQ4hryIALqArcSoZI9ZpHck0FKnF0UpXZnvjhi49XR4g--BWT2dfgTZmlRkUmDZEi4YsQbRIS9K56kRCF-i_obuDl1gq2RiSew3GnhAdSowTEBmVbD0eDtWBp9ij22Y06Jy5-JTS7GVv1vSuu0nJshziPaNCdE1Qc54TuOXpxuvL",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJR5k44iB_a4cRyAkGJgqNOP8",
+                 "plus_code" : {
+                    "compound_code" : "JV3V+M9 Littleton, Colorado",
+                    "global_code" : "85FPJV3V+M9"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJR5k44iB_a4cRyAkGJgqNOP8",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 274
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "3200 W Berry Ave, Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.616862,
+                       "lng" : -105.0286788
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.61825677989272,
+                          "lng" : -105.0273288201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.61555712010728,
+                          "lng" : -105.0300284798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "South Suburban Parks",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/111093671490552789712\"\u003eDoug\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0maGlViSIddN7cOk9dLPfCM1P7K4uuDMzFR5D39cmxFaVXi8_g1KsxlwIeYQu8HiVbY1NexNtHBfj-69VUYoJTuDRyB_lFruQu3uwGskWSTACKp-gWKSUXdMs3MOWDI6CJKEnOMMfaUAnjpd3rU-9IAW1xlfzBTIm99Zn-yMNbP7Iso",
+                       "width" : 4000
+                    }
+                 ],
+                 "place_id" : "ChIJ8_hOYymAbIcRjL6VAuKyKcA",
+                 "plus_code" : {
+                    "compound_code" : "JX8C+PG Littleton, Colorado",
+                    "global_code" : "85FPJX8C+PG"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJ8_hOYymAbIcRjL6VAuKyKcA",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 23
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "6122 W Weaver Dr, Littleton, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.5993372,
+                       "lng" : -105.0619518
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.60099452989272,
+                          "lng" : -105.0606016701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.59829487010727,
+                          "lng" : -105.0633013298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Weaver Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1080,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/116219901356779412515\"\u003eBrandon\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0lSy9oja48_K_6mNc1oAWpt8MY66xvr5_dRJ_pivZF24mfeLbAXVz73h9t2j6V89xxUsPHYUHnOYcIEnetru9QZOFfINUAlkg0t1sjTdGuYXDBySSxkuvOvusjxjreOawGtviC42E2yRHMa0g1W_XeRozR7D0-cL-9vOcdPsdVQj0kh",
+                       "width" : 1920
+                    }
+                 ],
+                 "place_id" : "ChIJGVNwLE9-a4cRkubirerkWNw",
+                 "plus_code" : {
+                    "compound_code" : "HWXQ+P6 Littleton, Colorado",
+                    "global_code" : "85FPHWXQ+P6"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJGVNwLE9-a4cRkubirerkWNw",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 57
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "5562 S Crocker St, Littleton, CO 80120, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.617448,
+                       "lng" : -105.0108149
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.61845512989272,
+                          "lng" : -105.0094613201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.61575547010728,
+                          "lng" : -105.0121609798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Slaughterhouse Gulch Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/118225131148737476128\"\u003eAmy Krieg\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0kQXiJF4CgV7Qcwymmv-a_B2oH_dd8pmF-AdHoxQotSUqzt5PQt0ItvQdpN2IQqgNPIwos7ahuqZ06vIq6W_myNh3ohOqCDno8LTMBcBOn7M_RZ1geAELKIXLQ5mBnAP_mc9Tz2alXQndijc4yR_VA7aYVbCBgSLNk7NNfwBe37vF7d",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJZ0a3jzWAbIcR7qgXQqK9piU",
+                 "plus_code" : {
+                    "compound_code" : "JX8Q+XM Littleton, Colorado",
+                    "global_code" : "85FPJX8Q+XM"
+                 },
+                 "rating" : 4.1,
+                 "reference" : "ChIJZ0a3jzWAbIcR7qgXQqK9piU",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 35
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "2301 W Briarwood Ave, Littleton, CO 80120, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.5954896,
+                       "lng" : -105.0157452
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.59672022989272,
+                          "lng" : -105.0144126201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.59402057010728,
+                          "lng" : -105.0171122798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Charley Emley Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/106316990043078919807\"\u003eSamantha Flores\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0l82OnvW7ISpOH_nB9v_6sUR8qXSwuzau1gvFF9RHW2k_r8QBmwDYE1pCcBcqfX7ykZI95S_VXuVwbQiWvMvPZwoZ22znYIohf8Sg8aZBEzlfjqBjgh5DEaOexwmn7nqRkERn_f0G5b5GNzdtYdjShRHUrcwIXI9oIUXUyEbQeM_Fs",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJryqSLcKBbIcRe21qbSHGfbw",
+                 "plus_code" : {
+                    "compound_code" : "HXWM+5P Littleton, Colorado",
+                    "global_code" : "85FPHXWM+5P"
+                 },
+                 "rating" : 4.6,
+                 "reference" : "ChIJryqSLcKBbIcRe21qbSHGfbw",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 61
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "Denver, CO 80123, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.6273971,
+                       "lng" : -105.1033677
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.62874692989271,
+                          "lng" : -105.1020178701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.62604727010727,
+                          "lng" : -105.1047175298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Wagon Trail Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105693132061797394439\"\u003eBrian McMillen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0kEXRbW6nbRRURGaMQUaarI_GCJSyqRrgNKqkTkiebWTPkLHhgMnz0dGXIBdwDlJJqoizMpZkdstSRUHIFE2PKAlTj_2ivdXOkNkvRdLbNTryDIXQfSj-28gzgo0yzzLo_2oh09AARS1o_ujqkV-TdkxN4Cfw0p9qWSZwOlxu72vg4",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJPYt16Wt_a4cRCc6Lgjm2neE",
+                 "plus_code" : {
+                    "compound_code" : "JVGW+XM Denver, Colorado",
+                    "global_code" : "85FPJVGW+XM"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJPYt16Wt_a4cRCc6Lgjm2neE",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 66
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "5800 S Spotswood St, Littleton, CO 80120, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.609456,
+                       "lng" : -105.011149
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.61080582989273,
+                          "lng" : -105.0098984201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.60810617010728,
+                          "lng" : -105.0125980798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Sterne Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2160,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117434448805420440532\"\u003eSara Guthrie\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0kl6PbMs_pbkPBHlGnPCBSHhJP0aoysWOCmLd_NKB425BzT4tJXqQmRK6VQaNiDUSUlVPAbdiYqQj5Hkqx7DwKMpspDLhJbnYTyduH5h4dEg5pPEeA1Jc9cCfOddKHJiCr8Tn3NTxt8eICSP5Xc7QEgBP63jchBaGhjsrzSSdzBvkZH",
+                       "width" : 2160
+                    }
+                 ],
+                 "place_id" : "ChIJFbhXJcqBbIcRedzRYJN6Qdw",
+                 "plus_code" : {
+                    "compound_code" : "JX5Q+QG Littleton, Colorado",
+                    "global_code" : "85FPJX5Q+QG"
+                 },
+                 "rating" : 4.7,
+                 "reference" : "ChIJFbhXJcqBbIcRedzRYJN6Qdw",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 672
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Sun, 04 Jun 2023 20:32:04 GMT
+recorded_with: VCR 6.1.0
