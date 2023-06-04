@@ -1,0 +1,956 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/textsearch/json?key=<GOOGLE_API_KEY>&query=playgrounds%20parks%20Westminster&radius=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 04 Jun 2023 05:33:04 GMT
+      Expires:
+      - Sun, 04 Jun 2023 05:38:04 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - scaffolding on HTTPServer2
+      Content-Length:
+      - '37688'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=70
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "next_page_token" : "AZose0mhepqB_PCUunRFIcv_bL6lvXXAXsUh2rFtMiZxjstoHmZQBqrhtXIPqLQeEwbY2Fo4avDCawYo6HhyYYNzyIPQzOhrftufJKHVQ-u-iXuAV_JZoMCDR49MQBX5wlGyNtodMZ_OrXR_d3oeNvIpmTw_dWL6X_H973bQdGVcGHLBg0mVNq5RJHXmXqr9-DlHnyQebqF15MlqzVdvBeKbwwrNzx__ZDlZHjRgfEXMq5Lp3szkut-MKGj6rTF84SE-nODgvFEVVsYEUC2O-RdbGvGyT8JxlqxS6E8NjM7SQNxKnHcdHUaaqkpZti0l1LiL1EUPEOcY73AURwjV3ostXbrcNpfcD2ZyzKYVTAhxQMMHr2z3O2xMci-ZsCmHqmzzkVWxE2Bbwp_cx1kwDytGJILtnX1lQypHVeTS",
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "4801 W 92nd Ave, Westminster, CO 80031, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8643107,
+                       "lng" : -105.0487757
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.86610062989271,
+                          "lng" : -105.0474230201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.86340097010727,
+                          "lng" : -105.0501226798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Westminster Center Park",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2858,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/100887572622526165753\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0mi7jbzrN1MP5uMaNXDIbYwVvjmnpZj8p_akA7WpoM20apjJ3b_aozVJTo0cD23yxovKC-B0kJCOvsE00Zyj6DCtpXBT3RPlswmSYqIS82SbPhnMxHkSJKH6cWrf14e31wTz4LRfQgRYw20uWeRXQvz0xSZnywF0jMl9qMl20TSE0sp",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJKZxVOcSJa4cRO4puGDbD9kE",
+                 "plus_code" : {
+                    "compound_code" : "VX72+PF Westminster, Colorado",
+                    "global_code" : "85FPVX72+PF"
+                 },
+                 "rating" : 4.6,
+                 "reference" : "ChIJKZxVOcSJa4cRO4puGDbD9kE",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 783
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "5845 W 89th Ave, Westminster, CO 80031, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8587356,
+                       "lng" : -105.0602892
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.86000712989273,
+                          "lng" : -105.0589287201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.85730747010729,
+                          "lng" : -105.0616283798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Central Square Park",
+                 "photos" : [
+                    {
+                       "height" : 3120,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/111910505229814233587\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0kf1rvPjzeyf0FP3SnSRQztNzc9TEjIih-wFFykYVlQzsc9VNaLf6h-mqvSSpg2lkU49G2nJggavYsKMFiJS_dgv3absQSI8hNOngiASKVie8REuyKdabYGZBZhdtM9EV0bYW4IIjJ9nimOtOoF35oSo_7zyE4sMe-ty6Q5BZBahFYk",
+                       "width" : 4160
+                    }
+                 ],
+                 "place_id" : "ChIJLfi05m6Ja4cRvuCXxEG464g",
+                 "plus_code" : {
+                    "compound_code" : "VW5Q+FV Westminster, Colorado",
+                    "global_code" : "85FPVW5Q+FV"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJLfi05m6Ja4cRvuCXxEG464g",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 3
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "4300-, 4362 Wagner Dr, Westminster, CO 80031, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8494329,
+                       "lng" : -105.0446831
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.85097232989271,
+                          "lng" : -105.0434558701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.84827267010727,
+                          "lng" : -105.0461555298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Rotary Park",
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117686600482189891551\"\u003eJose Vieitez\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0mv0L9JABZFTtQJ9lznZRzeqFYa2RuYuAveidzP2eOdqlfdXkrLMrIb0BszBeAsV9mRA62-XepDJFOKPHfWBp0G_peMcexiARXG77vl6TDN4A8uyGuQph5MzvIrXw1zo9ibMAOfyi4OarYIqxD33Q4gjQ-m0uJtPO-Eh59o5KCX48JO",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJ8wjVnTKIa4cRFqyevNHADwI",
+                 "plus_code" : {
+                    "compound_code" : "RXX4+Q4 Westminster, Colorado",
+                    "global_code" : "85FPRXX4+Q4"
+                 },
+                 "rating" : 4.3,
+                 "reference" : "ChIJ8wjVnTKIa4cRFqyevNHADwI",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 84
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "Unnamed Road, Westminster, CO 80021, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8637404,
+                       "lng" : -105.0884704
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.86510332989273,
+                          "lng" : -105.0871205701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.86240367010728,
+                          "lng" : -105.0898202298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Oakhurst Park II",
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115011533634168875902\"\u003eDavid Lauten\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0mw0e4IjrM5a1AaL88w4SkwAXSerqHfz9o8Z4z6jw353Yrii-kEVM8gQ88bVAXpN6Hhk5_yL0CC0iFatFJ5SjBAKzg7_bdBG4oUPd-7LY2Yh7pFhr3FSSYPTQM_XdUPFaFHjwZHYgRZRrdb2YnZ4YVoJ7KcyhzV1qJ04tGA5aU3CWHF",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJEduMwiaJa4cRnTg5wdx7Zsc",
+                 "plus_code" : {
+                    "compound_code" : "VW76+FJ Westminster, Colorado",
+                    "global_code" : "85FPVW76+FJ"
+                 },
+                 "rating" : 4.7,
+                 "reference" : "ChIJEduMwiaJa4cRnTg5wdx7Zsc",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 20
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "9311 Lark Bunting Dr, Westminster, CO 80021, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8667506,
+                       "lng" : -105.0942492
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.86793707989273,
+                          "lng" : -105.0927820201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.86523742010728,
+                          "lng" : -105.0954816798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Oakhurst Park I",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1836,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112077994751894461863\"\u003eJustin Griesinger\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0ncEjLv2-RreY7gWzG7d87WKr2OK5fQ43aXdQE4xuC49AxPzYLJKmh-ptRnwh-WGQb46sYq50XvlodDiMcIezRF3ATEdqUXvC0ThwkJSmiunBD6Wa7htk0furT9Y0DNqDUQuMFUQ9nE776I7B85KDZEEphV_xlPkCq4NsaW-ipNgocb",
+                       "width" : 3264
+                    }
+                 ],
+                 "place_id" : "ChIJpQ5u9GyJa4cRYX5waXd30DI",
+                 "plus_code" : {
+                    "compound_code" : "VW84+P8 Westminster, Colorado",
+                    "global_code" : "85FPVW84+P8"
+                 },
+                 "rating" : 4.6,
+                 "reference" : "ChIJpQ5u9GyJa4cRYX5waXd30DI",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 145
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "4105 W 80th Ave, Westminster, CO 80030, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8427193,
+                       "lng" : -105.041452
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.84379732989272,
+                          "lng" : -105.0400567701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.84109767010727,
+                          "lng" : -105.0427564298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Westminster Hills Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/114621830654650329165\"\u003eellen hrebic\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0nEPi-RQmqZrEHa4syBtbsAmSYx2ZMok0vvrPGrQ4atVZD3cOhhrcYlaLxrq1octIwka_k-pwRdNb2Z0zluSAaehuQLek1syOqkPIObo44S27xDlM9As-gpEtiYdordflB60K8KhDjvrD6TCFbxt-JJUV2wH7q1SdbddxOCx4sYkKbG",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJ7VcFnC-Ia4cRyuJSdDMwFJ0",
+                 "plus_code" : {
+                    "compound_code" : "RXV5+3C Westminster, Colorado",
+                    "global_code" : "85FPRXV5+3C"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJ7VcFnC-Ia4cRyuJSdDMwFJ0",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 94
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "9018 Field St, Westminster, CO 80021, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8604509,
+                       "lng" : -105.0977572
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.86162227989272,
+                          "lng" : -105.0967878201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.85892262010728,
+                          "lng" : -105.0994874798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Kings Mill Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4160,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/111984463677372525892\"\u003eEdward III\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0nPRy8z-KDhbDpv_6dwuJlYxmrAI8yqeTZUxbCrIcSFLkB0dyTpN71EDG8FaWap5y_xJp1sohdLP4wR7bVz0ONqrf-dRk4tCX6BvogxgS6GE1Tsq9ZJSoA7WNtU7wyr0bGzfowewgs5dBnppUHCvzD3X1pvNdVVQZ7Sn0-k0qIiOLmG",
+                       "width" : 3120
+                    }
+                 ],
+                 "place_id" : "ChIJPz4YERSJa4cRGnKx7HnM7KI",
+                 "plus_code" : {
+                    "compound_code" : "VW62+5V Westminster, Colorado",
+                    "global_code" : "85FPVW62+5V"
+                 },
+                 "rating" : 4.3,
+                 "reference" : "ChIJPz4YERSJa4cRGnKx7HnM7KI",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 114
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "8695 Allison St, Westminster, CO 80005, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8543432,
+                       "lng" : -105.087727
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.85560012989272,
+                          "lng" : -105.0861814201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.85290047010728,
+                          "lng" : -105.0888810798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "icon_background_color" : "#7B9EB0",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+                 "name" : "Nottingham Park",
+                 "photos" : [
+                    {
+                       "height" : 540,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115044117886257103729\"\u003eChris\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0mznVa2SM54kmEKl_SWPsV_TllCTeRaCaI8V6R3msCviU9fW4hJ6ASj9RlWrZqv4hJqyKvwU9vmQDlzm90Rn3iCNJdeOO6MnEay-mWtjSrqvby-eHizEZyz-dtiWP9j77P3YYOojWyFNeB1Dzh5OnvFAo02Xaz76Loa0Amu8OBEpB4i",
+                       "width" : 960
+                    }
+                 ],
+                 "place_id" : "ChIJ1xeZm3yJa4cRzyl8X8aYevY",
+                 "plus_code" : {
+                    "compound_code" : "VW36+PW Westminster, Colorado",
+                    "global_code" : "85FPVW36+PW"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJ1xeZm3yJa4cRzyl8X8aYevY",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 2
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "3450 W 99th Ave, Westminster, CO 80031, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8759692,
+                       "lng" : -105.0322845
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.87731252989271,
+                          "lng" : -105.0308934201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.87461287010727,
+                          "lng" : -105.0335930798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Squires Park",
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105546023089927919419\"\u003eCarolyn Work\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0nwBSE4sGbkwXQCbGLPOoxBzHA7CO1L1RmIrmKMK7lI0JP72qf4rfvYOJ6gW39ziVBDP58J4RvedC352jzWPakY-o0Q7UjMn5FREOZ3deosEreoYbpiDJdzzMZa1u5fAm_Csx5aES5gDt-_AUXLmDZEK_n7NmxSEHNRAV2NXXPaBJY-",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJk0vNPOCJa4cRqKT5KcLHtJI",
+                 "plus_code" : {
+                    "compound_code" : "VXG9+93 Westminster, Colorado",
+                    "global_code" : "85FPVXG9+93"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJk0vNPOCJa4cRqKT5KcLHtJI",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 214
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "7577 W 103rd Ave, Westminster, CO 80021, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8848723,
+                       "lng" : -105.0784862
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.88609432989271,
+                          "lng" : -105.0771418701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.88339467010727,
+                          "lng" : -105.0798415298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "icon_background_color" : "#7B9EB0",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+                 "name" : "Sensory Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103751058451991242545\"\u003eScott McCollom\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0kC2jCZNxuL6U3x1k-brFEDcw1_5IcKSewHPt8-OsF3IOUbjX8rxhoL6MF1ALdnZwvbadFNX8wWxxxHnfWqF0s3DL0r2pl-rZ8LilcA56g9xn6PzDxlemqMN7FKECcRgqwnDtYxgqaoYVSkyo2VaYhm9jDKJTSncjq33_3AIt63rOJv",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJz7xda7iLa4cRYNf2sN8C17I",
+                 "plus_code" : {
+                    "compound_code" : "VWMC+WJ Westminster, Colorado",
+                    "global_code" : "85FPVWMC+WJ"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJz7xda7iLa4cRYNf2sN8C17I",
+                 "types" : [ "tourist_attraction", "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 160
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "4201 W 94th Ave, Westminster, CO 80031, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.870821,
+                       "lng" : -105.0401523
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.87208322989272,
+                          "lng" : -105.0388040701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.86938357010727,
+                          "lng" : -105.0415037298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Carroll Butts Park",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2448,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103459871916949776060\"\u003eDonna Beck\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0nc5L9gB4b4NWuylUwmGrqMSUSKUaifpYtIDLVZ9o_XC_Dec1liPCMGV2HlE1hHuvGrJR9uQQnWpVc1iA3pso7xrcD8es0lkqoml-j2qTYY-TH-k1VlubBn6xBqxgAtSCx9w3yeoQWIPaDuSE2fdIeUbxiHIhxD76q9Dh5mQhenZ68L",
+                       "width" : 3264
+                    }
+                 ],
+                 "place_id" : "ChIJTcolld2Ja4cRbBPrPjzfsXo",
+                 "plus_code" : {
+                    "compound_code" : "VXC5+8W Westminster, Colorado",
+                    "global_code" : "85FPVXC5+8W"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJTcolld2Ja4cRbBPrPjzfsXo",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 474
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "4901 W 93rd Ave, Westminster, CO 80031, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8645652,
+                       "lng" : -105.0492117
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.86622942989272,
+                          "lng" : -105.0478532701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.86352977010728,
+                          "lng" : -105.0505529298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Water Features",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3264,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/110636782004488306570\"\u003eFranquell Quarles\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0lNnmim_DLGxtwMzy0rG6zsBcJP7Z82wES-O25_HTFPR4LnYqFx2eSxvEo-qYhahVmRQpMavNWhY2d7s-GM6Qst5scrQveAi9T4ospso_-f7882yO7Xei4qVZv0rIUrHBwSsCLacXpQ_iS-69HLRMoH6D0uv2eqz06zfM2q8Af9OQD1",
+                       "width" : 2448
+                    }
+                 ],
+                 "place_id" : "ChIJS97UIsSJa4cRaF02CgQg3e4",
+                 "plus_code" : {
+                    "compound_code" : "VX72+R8 Westminster, Colorado",
+                    "global_code" : "85FPVX72+R8"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJS97UIsSJa4cRaF02CgQg3e4",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 25
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "Westminster, CO 80021, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8713262,
+                       "lng" : -105.0643264
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.87205757989273,
+                          "lng" : -105.0625806701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.86935792010728,
+                          "lng" : -105.0652803298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Trendwood Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115011533634168875902\"\u003eDavid Lauten\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0k0KsoYVCqDAsh7HKbTQkT_889dhODilT5v9MZIKImWVp-_3AshLXs0xwVZLFmlOb09HcEMH9SWO2nsRzm6OkwazsFOlGF4HFv_Ld04lAmSI8xxtpFcIuQp7gi7dpTSqn_wheJma_OSP3gGFGAW0qt-fdzMO4jErhGEu8jemAk5hY7b",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJL7elU5aJa4cRj9lDWwjoUa4",
+                 "plus_code" : {
+                    "compound_code" : "VWCP+G7 Westminster, Colorado",
+                    "global_code" : "85FPVWCP+G7"
+                 },
+                 "rating" : 4.6,
+                 "reference" : "ChIJL7elU5aJa4cRj9lDWwjoUa4",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 17
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "10455 N Sheridan Blvd, Westminster, CO 80020, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8880519,
+                       "lng" : -105.0589299
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.88887032989272,
+                          "lng" : -105.0524718
+                       },
+                       "southwest" : {
+                          "lat" : 39.88617067010728,
+                          "lng" : -105.0610826
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Westminster City Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2988,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105383261874985037792\"\u003eBruce Douglas\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0lnWGeMNfc1J9bdMZLSTxmccrZ2vt1yMBuFcfzhb_ALfC8C-hBuJQaeGvkeoNIdGTjZzUYrvjt0IEq_O4lkNswrq8pMZLdyrDpkjnkxg1PGfybbfejDl5-NAdcPjVDwiokzsooINaH6LGWkCan9ghX5O_KvrMz3YNXrYDCMoPvriqOV",
+                       "width" : 5312
+                    }
+                 ],
+                 "place_id" : "ChIJg591W4qJa4cRpt-hPouWFLY",
+                 "plus_code" : {
+                    "compound_code" : "VWQR+6C Westminster, Colorado",
+                    "global_code" : "85FPVWQR+6C"
+                 },
+                 "rating" : 4.6,
+                 "reference" : "ChIJg591W4qJa4cRpt-hPouWFLY",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 1701
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "Westminster, CO 80031, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.89169,
+                       "lng" : -105.0327287
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.89326487989272,
+                          "lng" : -105.0314307201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.89056522010727,
+                          "lng" : -105.0341303798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Windsor Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112819818945043576491\"\u003eTad Amore\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0liRYn2ZxTxlmWWgXE_-YzBucMln0dPtVHNTJLBn3R4dddxYiZrf0eFTyW7xb05c18V420CsBxCscJiF3C9xSTsxDTnvNQk1HlEHctUwYfZ4zmZTn304ZeLJxk5H6mITF55-QMb6ljSITWG7jJS2THpmM2aU1CAm5Kw6jsWsky5Rrfs",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJcXqF3v-Ja4cRscGEX7_CAE4",
+                 "plus_code" : {
+                    "compound_code" : "VXR8+MW Westminster, Colorado",
+                    "global_code" : "85FPVXR8+MW"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJcXqF3v-Ja4cRscGEX7_CAE4",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 73
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "Westminster, CO 80005, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8536809,
+                       "lng" : -105.0934329
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.85503072989273,
+                          "lng" : -105.0920830701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.85233107010728,
+                          "lng" : -105.0947827298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "icon_background_color" : "#7B9EB0",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+                 "name" : "Trailside Park Playground and Pavillion",
+                 "photos" : [
+                    {
+                       "height" : 3468,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/116708735244185827791\"\u003eValerie Mino\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0nomtcKj-EsmfcYBMkdbg0XQZjZM3dNq-NLtl9izOMeSJAOuJji3BoV6gi4ALk4qPBl5nq4X9Tg5BjaJzeWghOYyFxoP_2INJSbtN7WE2YIndjVsAo6f6MYRdT_dDBXknP42_Ptaen4iEIvHTcJU8a03cLLUEVQgmpbEyAZJh_87LV3",
+                       "width" : 4624
+                    }
+                 ],
+                 "place_id" : "ChIJ8xvWkp6Ja4cRQ0JvEE6r35M",
+                 "plus_code" : {
+                    "compound_code" : "VW34+FJ Westminster, Colorado",
+                    "global_code" : "85FPVW34+FJ"
+                 },
+                 "rating" : 0,
+                 "reference" : "ChIJ8xvWkp6Ja4cRQ0JvEE6r35M",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 0
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "10320 Eaton St, Westminster, CO 80020, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.88173680000001,
+                       "lng" : -105.0592204
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.88314862989272,
+                          "lng" : -105.0573874701073
+                       },
+                       "southwest" : {
+                          "lat" : 39.88044897010728,
+                          "lng" : -105.0600871298927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Waverly Acres Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105280007596488476867\"\u003eBentlie Ueno\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0lImGZNIxdwDkEZPinb4uZQnjK42i0bvCJJ_ksUBiYQkeC6SR3NkWTWmSy8kyXEQZQ7v5tVvVN_xr0Y7YCyiSYUmPPCiEP-2Pdiyz0s8TZkAZYw5y-RJkBvb8V1Vi5mkS__uUfewDZgaA0YD43LIptYd-uyEBcH9wh2HQF8SLnZj7fu",
+                       "width" : 1800
+                    }
+                 ],
+                 "place_id" : "ChIJiyaYqY2Ja4cRZARzienI7Tc",
+                 "plus_code" : {
+                    "compound_code" : "VWJR+M8 Westminster, Colorado",
+                    "global_code" : "85FPVWJR+M8"
+                 },
+                 "rating" : 4.3,
+                 "reference" : "ChIJiyaYqY2Ja4cRZARzienI7Tc",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 22
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "11550 Wolff St, Westminster, CO 80031, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.9043369,
+                       "lng" : -105.0469894
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.90564402989273,
+                          "lng" : -105.0460939201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.90294437010728,
+                          "lng" : -105.0487935798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Westfield Village Park",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1080,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115708358150487899580\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0leTijdE3jOk7a7w9W_k-PnH69PzLUGHR6OPPWc64C0zIOtvB5H3X_rN7NxVzFct3sIiN4Sd-2ovllEU9pOU4gnI3H8wliv3c1ofxrbFGGHa76fhdRIstnxkF2FnYtrSD6VvOAx2NF65wHiQ1X-_b7QomAGm6dv-c5cLJbauv_7p7Cp",
+                       "width" : 1920
+                    }
+                 ],
+                 "place_id" : "ChIJW5pgBxGKa4cRsMHesCFzXa8",
+                 "plus_code" : {
+                    "compound_code" : "WX33+P6 Westminster, Colorado",
+                    "global_code" : "85FPWX33+P6"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJW5pgBxGKa4cRsMHesCFzXa8",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 151
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "11320 Kendall St, Westminster, CO 80020, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.9021546,
+                       "lng" : -105.0652397
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.90350087989272,
+                          "lng" : -105.0643156201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.90080122010728,
+                          "lng" : -105.0670152798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Sherwood Park",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/111051994176096132600\"\u003eBrett Stakelin\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0nM99vtcZ7KhSI6L_8RYfa0j93PU_G833NS3ORFZ6mwuKNpq9VHORO49LqZzvCquMFLxm_DqQpU8l3-q3ay0JavXwwupcFSYHtD9iPLfqLcVCkF9qTZB-Gtu18aH3dreOgR1TlimVAUr-z8RS9cIcIDHaVpL1wT0DnpNYZnuHgHVWdk",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJkztPqDuKa4cRQvB6AR8rwLs",
+                 "plus_code" : {
+                    "compound_code" : "WW2M+VW Westminster, Colorado",
+                    "global_code" : "85FPWW2M+VW"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJkztPqDuKa4cRQvB6AR8rwLs",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 109
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "4321 W 78th Ave, Westminster, CO 80030, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8384258,
+                       "lng" : -105.0465278
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.83963812989273,
+                          "lng" : -105.0451784201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.83693847010728,
+                          "lng" : -105.0478780798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Sunset Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/102756870683303527656\"\u003eNancy Pattison\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0mhByVRIrq7siGgtYF_2VpZ92cPzXSipSnmVtP43hMZd8oCp1akPPSzahATGu9AEa17SwFdIp0LQS51WDl7UsLS_nvh2QfFTlJ-NxjsOQxdW0f2A4rFqbB0VXu0F2wZRsexIQymFlFcwhuw18hlXXXq6hJgsLDpVi6nOwwo2ps8Nynx",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJtTEFizqIa4cRa-8MIaLFrgs",
+                 "plus_code" : {
+                    "compound_code" : "RXQ3+99 Westminster, Colorado",
+                    "global_code" : "85FPRXQ3+99"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJtTEFizqIa4cRa-8MIaLFrgs",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 91
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Sun, 04 Jun 2023 05:33:04 GMT
+recorded_with: VCR 6.1.0

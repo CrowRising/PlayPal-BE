@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe PlaygroundService do
+RSpec.describe PlaygroundService, :vcr do
   describe 'instance methods' do
     it 'get_playgrounds' do
       playground_service = PlaygroundService.new
