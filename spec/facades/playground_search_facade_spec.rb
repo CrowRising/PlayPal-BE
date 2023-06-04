@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe PlaygroundSearchFacade do
+RSpec.describe 'PlaygroundSearchFacade', :vcr do
   describe 'instance methods' do
     it "playground_details" do
       search = {location: 'Westminster', radius: 10}
