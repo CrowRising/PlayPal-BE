@@ -10,7 +10,7 @@ class StaticImageService
     # File.open(file_path, 'wb') do |file|
     #   file.write(jpeg_data)
     # end
-    # require 'pry'; binding.pry
+   
   end
 
   def conn

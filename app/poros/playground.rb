@@ -3,7 +3,7 @@ class Playground
               :playground_address,
               :lat,
               :lon,
-              :playground_id,
+              :id,
               :rating
 
   def initialize(data)
@@ -11,7 +11,7 @@ class Playground
     @playground_address = data[:formatted_address]
     @lat = data[:geometry][:location][:lat]
     @lon = data[:geometry][:location][:lng]
-    @playground_id = data[:place_id]
+    @id = data[:place_id]
     @rating = data[:rating] 
   end 
 end

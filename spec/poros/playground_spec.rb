@@ -8,7 +8,7 @@ RSpec.describe Playground do
 
       expect(playground).to be_a(Playground)
       expect(playground.playground_address).to eq("450 Powers St, Erie, CO 80516, United States")
-      expect(playground.playground_id).to eq("ChIJkTXfW-z1a4cRzrN-7OsfDNY")
+      expect(playground.id).to eq("ChIJkTXfW-z1a4cRzrN-7OsfDNY")
       expect(playground.playground_name).to eq("Lehigh Park")
       expect(playground.lat).to eq(40.0349364)
       expect(playground.lon).to eq(-105.0463961)
