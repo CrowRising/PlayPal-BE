@@ -1,4 +1,5 @@
 class PlaygroundsSearchFacade
+  
   def initialize(search)
     @location = search[:location]
     @radius = search[:radius]
