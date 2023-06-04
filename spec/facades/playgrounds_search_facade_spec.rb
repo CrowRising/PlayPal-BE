@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe 'PlaygroundSearchFacade', :vcr do
+RSpec.describe 'PlaygroundsSearchFacade', :vcr do
   describe 'instance methods' do
     it "playground_details" do
       search = {location: 'Westminster', radius: 10}
-      playgrounds = PlaygroundSearchFacade.new(search).playground_details
+      playgrounds = PlaygroundsSearchFacade.new(search).playgrounds
 
       expect(playgrounds).to be_a(Array)
       expect(playgrounds.count).to eq(20)
