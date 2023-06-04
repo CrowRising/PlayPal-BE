@@ -12,4 +12,11 @@ RSpec.describe PlaygroundFacade do
       expect(pg.rating).to eq(4.5)
     end
   end
+
+   it 'can return sat image as an object', :vcr do
+    pg = PlaygroundFacade.new('ChIJz7xda7iLa4cRYNf2sN8C17I').image
+
+    expect(pg).to be_a StaticImage
+    expect(pg.image_data).to be_a String
+   end
 end
