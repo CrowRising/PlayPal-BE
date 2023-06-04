@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://maps.googleapis.com/maps/api/place/textsearch/json?key=AIzaSyDWRc_5znnEpQ9KJgKn9ZkdyDxCLWFF4Sc&query=playgrounds%20parks%20Westminster&radius=10
+    uri: https://maps.googleapis.com/maps/api/place/textsearch/json?key=<GOOGLE_API_KEY>&query=playgrounds%20parks%20Westminster&radius=10
     body:
       encoding: US-ASCII
       string: ''
@@ -21,9 +21,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sun, 04 Jun 2023 05:01:12 GMT
+      - Sun, 04 Jun 2023 05:33:03 GMT
       Expires:
-      - Sun, 04 Jun 2023 05:06:12 GMT
+      - Sun, 04 Jun 2023 05:38:03 GMT
       Cache-Control:
       - public, max-age=300
       Vary:
@@ -31,13 +31,13 @@ http_interactions:
       Server:
       - scaffolding on HTTPServer2
       Content-Length:
-      - '37612'
+      - '37688'
       X-Xss-Protection:
       - '0'
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=497
+      - gfet4t7; dur=418
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
     body:
@@ -45,7 +45,7 @@ http_interactions:
       string: |
         {
            "html_attributions" : [],
-           "next_page_token" : "AZose0mfJ6G020ueYmnvBUUj2YRBW58Wx1xutcdqP6rUHn_k4ifnhqdEqY4X0vidKp0z5-nWt3sLa_UZv1x8Ffu-LQPJ-C_-IQz-MDTnJm83BY7H3MuYc25FqmpHHIZiZo3FDfPlD9c8Cxr3M5c7H8DLHxlMDzizkqfTJOt8aUDKRURxZ172-EPwxLiqXwZjxjulq1fMSTomoBzX_s8wRqh0YFhvM6v3-QfGSpYt33sReTTBMhnR1ZZQ8kmnijawDu4dJ24HhtGJ2tYfa31R8mPdF6Zeum7Ae9Ck4-B4xuY77JvqnlmBXlLKiUwUnayhiPDQ8m7_UZ1ze7Ey_KcfSsxU2LYBhNoRhBgCdmmzTTac81RAJDjaLRa0pvBk5-R5N_ZhMGuyt572P9sFc3B8ll0GjRFEC3MGjpc13EQH",
+           "next_page_token" : "AZose0lrxcfIEIQp3heh8-SMT9rufJTKokn-aNREq3s5UvWD4JtY41uqNcjXQ3ayf7ntbdqWZ-aZHB4SfYSbjwhnuXH6ydw9DlSyVRU6MyB0rAbwTmy6Qs6vGqYrbQAF4xAgx2st9WYJEjEDySM3GUgv7nMp6P3e66FSc70cz6rgo75HhGNw3HCmO8pdHQX9d2zutq3lk3U1RLuTEJEDxKlEDJ2cO2CMmxpuLMOC-XNglgF4WeJtZ39t-2DjUt8IBUXycuwSVV56bMNM5-jKQpg94fL0eqTwJL-2BaCn9x_KbcOtpDS1G2lMjD8WkyenTng4Dxs4cwpX4rLBqnm2UIzT03hov1a10W6_k3WIKNpD8lVpzkMXauJ3ikVlfggjBTumYBKomAWkej-8Jgzd57gjnwaIlCF8Fp2aJVNu",
            "results" : [
               {
                  "business_status" : "OPERATIONAL",
@@ -79,7 +79,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/100887572622526165753\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0lc-DH4PAwJ-xosda2kxwnx4uOA46_H5D5_e4YmnEiJSw0CbpyZjB4En0rVX-b6kUV0nmlbqFkrHFyRT-P2AnMXNgrjNsirBlGAfikvuMZT8u0MlnmwX4__ocV-Tg8uxRiIvSSr55ldxW_Msxpckd5jAC9ROeiOr-rGePBLnI1UajZA",
+                       "photo_reference" : "AZose0nRNCNS2RrnSMGMIvQJ_sAApeRAqNXNbG5krw6G5KTGXXS_WgWjyI6-wFJbC3RcNZ2nynVSS8ZxYzoiQK8GLMbjLJXsN_JD5lXUVm3JbkpU4DKoePO_cmA8wp_DSZN8YcxyC8woeaswvyss6AjtoFD7DTWT2eP8wIfgTOZt_tRS36vQ",
                        "width" : 3024
                     }
                  ],
@@ -122,7 +122,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/111910505229814233587\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0mK6Sb_MY5F5WZs_BESkm8Pc4V8RQbZYllTOQeTnNqmMTRcecGx5JW8d_naz0lViSxK-qpk--jt-R57LG0_Rnhk9Moha3Pr_8Ixi8lZNIL1DEzLhMtEj3IHSWglz1RJM7mePRFA4MPa21XgJ33M_1EN4xfy39X_F11DYJnpONcpL-T5",
+                       "photo_reference" : "AZose0kh07KXbe0zFc3JZLpQH0yEZluOsSv3KlBKKSR_eD_0P8TOpLrOI9Zo6-ypzKb4XrzemkIo0ofWTWA6hsVzdpZeVmk8nqBTt4twqnWUgcFHPyF7i7ssQvywVl1xWf0Xbockho10fMRPcG71ojnFSb-ZBtHxMdtkTGmC8gYYZj69Ekf3",
                        "width" : 4160
                     }
                  ],
@@ -165,7 +165,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117686600482189891551\"\u003eJose Vieitez\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0n3YUqihEo7wVAc4yC7dxmRaMeQkvfdtI2wGg_f53Mdic_3Muvvk_pFSVm4OfMPb_FrvbyhQDG1AvlOxULhMQLJYORNSFLtF3_q9verJ_CPFrflP38bhbgkOqXVZTHaibE230VA-a-4HUPKdVveO6nTs-pxcdzagO-YSMf6Rz0_h9o7",
+                       "photo_reference" : "AZose0mwhDb55cQa28fVXagJVYmmLq0yJGIIugHVtEMEfLOnaaE9TOz-5KRH-1Ur9r0Ibd7Ew7mbssF7STdoUzQ8c_Cr05GSDZd9DyS-xDyULKN_6TOWh7BtmyvJt0vy92RGZ6OGje5aM5L7ybv_fbyAfPruIUMjF9whnPnTveweZ_rrVcbt",
                        "width" : 4032
                     }
                  ],
@@ -208,7 +208,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/115011533634168875902\"\u003eDavid Lauten\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0l0QKlS5iNdQnqmFHdDvYn-KrrhZQR4qbpn_cICuSU9eX3KJcTTGk1Kl2KGWY1ZlpYsDXTqHhLzs3YZC3hPQQoIswOTIU03YDz42M4fjQgIvXccboWT2JJv75E-4yLFOD0xtTSM51YN5iqOc7MFsKLwNe6PjAUb6Semtd2pROVNsjZ-",
+                       "photo_reference" : "AZose0lx0lPK-wYp-FhxaWebwDCqnpJG5xJny3i6hxctAHPZV4ITByYsXGPUaKKjkzQGinbelOkuuoJH1kgdn8VVwOmE7cyGtJhfr0Iu0QlKPlZiFs6l9bL-JeBSNZzTz_-tCjnoLQNcsXzVJtDS37lozfKN08tG15WH2p95WqeVYrlo0Y5j",
                        "width" : 3024
                     }
                  ],
@@ -254,7 +254,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/112077994751894461863\"\u003eJustin Griesinger\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0kOw_fWvS-nmIy7xk3au06KLu5IVNoZvPoh7opyB5312Tt2e2nyDPVMD50uPlmWoMTlfm0-EDBfgciAeqsrzZTOfqlw2Th9eCVR0OHvvFlfvZnK6XOdd52MRtnlWHa5_DIuSQEntBeCy4J94A07b53cm0MYXaP3cHCAquMSKy133A5H",
+                       "photo_reference" : "AZose0nMNxnRlzcxDLoMvu2XUKg4ar9LZIEs3iv4mBuJ2stWB-Ao_9e52EVlex15-oqr7GqLL4mXCZfzEt8Euji3vYsNrHKWKiU2N04PlNSnwOLkZqaj38CSHc96-zlXsxUigC8gFpWGo3zbRZmB5br6U3bXFM61mt3SRcdgEZTiGDCC0lGA",
                        "width" : 3264
                     }
                  ],
@@ -300,7 +300,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/114621830654650329165\"\u003eellen hrebic\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0mPbBwC-JSdfudBOxJXiIIxZnTOrefec3bgcaIVXKQMzHRs7oZKBOdivX2lgIXHMyFQ-D70N0tESVl3BOC_bj-R02haJXjJScRVj3vC440rdJ4iLr_Mbk649Ptf9K2l_2tDJpm0hKSv4rzn9hjdQh-fGMQeuAU3eE3d0F6amY1495rL",
+                       "photo_reference" : "AZose0ntPxwR_2NGVKahDuFckK3688wRHrlNB35mIfCaJT5UI096bPi1dXl3Dlf95t4-dccbQxE5xb2fHNGQHu7GUH8Ge4Kx1lKKLw7_Ah0KeeVkqYb60P0HALAHNHHwkqEX2i1wsdcxJLkXujWiokoTbKFRqAlvPLzJNdApWlKIlpyx8X00",
                        "width" : 4032
                     }
                  ],
@@ -346,7 +346,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/111984463677372525892\"\u003eEdward III\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0k8gboj_CtNgjPu6WHMkffWKbzKjXkCTA0z3IDkXkzApuALsmEqXvm7TYwxCbU8qJavPbKf4F22D_GbitPwioXDECE38L-1uZkRmfPIP0YQIIlIImCL2EhV4LZK1OI3jFl0QJvbBSQSdAoypcQW6npZofGvaL2upiU4yKqjbp8ZQ-0D",
+                       "photo_reference" : "AZose0nFUKsww5f2BLY_BTmGgxe8MKM3iiclHsU7F3cS_37zq4c0CyHG1qoJH2_YJSFRGFSXlR7tfof6JEMnCecu3tdmUXlNLL2LoXQxc6E1MyTtI9UEkKqYvHCRVTpqFQQw9PKHBxbd1AiStrrOZVqtaHk_wsecqAhDzC5iqFg28Fyse7_-",
                        "width" : 3120
                     }
                  ],
@@ -389,7 +389,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/115044117886257103729\"\u003eChris\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0lAIztgW7wQRAxkshjDLXuHIzZOuN9WQe53VZhRdmR7NpM5fR7aX-3OpgyKc-JSpIeaHMBRBGyPS6DG-G6QLC2mzhtEQlujdxFvFpvwDFUR-8X97F_Y-2g__luKIMyCryPNPGtIGuriCIrRuTYf9XEX8ZeNcM7Eu16XdtPONF2KpRgq",
+                       "photo_reference" : "AZose0kof0AobS2jBakgVlhHiLytepRThZbLYVlx2IleUgmv7rxLtxbJ-O7Bg_hG6LHqC52HdSThjkepQxMNNPULfmrd2V2dA1jI8rBykFj5VpAQfpIvodRJHGKVCNCgtjaCdu54Ouuorh5A9Eujlv52753_mfOwLOiDS-lvxqV-jBRmj61V",
                        "width" : 960
                     }
                  ],
@@ -432,7 +432,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/105546023089927919419\"\u003eCarolyn Work\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0lxq0_VzIIyU9b__YkhhcRGKiKFIlrve9G8Ek_28iI7-lf40lTNazoDa6abjYZHAUB0wYmH47try9MsTBU1MBNfBeC7mqDMJU-o3duAqM982MqBORAYTCa3fqM4qTTNIuTXHkVVdHcy8P_fRVXYIB2C400CTqB_Us-t58TGd9s9ZzBb",
+                       "photo_reference" : "AZose0kljWpS-Kr_jLY1BiQKwIjw5Oif_QWcSu-R7ISNRURHvplVrMa9ybWCD3NygYXG4ktmkOQsOGqFxOAYdSgK3dahNWz0IyaKvvNw_0zp3bzDvkIinXHgK-3Ik3fH2MQ6LdCv5QJK95PKVPi6t_Qv0rFLMzrBEXz9hD_Cw5LGNvlz93NZ",
                        "width" : 4032
                     }
                  ],
@@ -478,7 +478,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/103751058451991242545\"\u003eScott McCollom\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0kphJZRplLdV7XoiHMMyGTtjvi1myxqpRs0mmQ3HI-Pd3FJE3yLJqlMtkamGNueUX2nPVh06hEHswa3RBJDn-t7ZXYPbhZpNegjkylYesE8QxDGKpSfWRSCj8Q8RdqoshkqQMC7jxG-9oXBHxe9Thmglvhgtj9Hi7qg3ChIlD1-5AUp",
+                       "photo_reference" : "AZose0mwS1PUXnF1sUcMTpSUnozv2Vy1VctkxIUPM75tp_tizhfn_wCKiXFHM7clc1iHnbOpGjmKqf59Z5sDggTw4TDldo68jA-sV-N5BDsNwNPuEZ6Xw36J-gd1YxmFgf_Wq15Y05VXgwbH6pFRJA4mVnW3I2_Z0Ji1EW6T8SJsNkNcbebK",
                        "width" : 4032
                     }
                  ],
@@ -524,7 +524,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/103459871916949776060\"\u003eDonna Beck\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0l60kAjBTOKBSDqb7WaAyzU_3W3XKN8YU-x5MS5rPG34yO7BN93xwFsndDU28OJ68VGS2ZeeYvISqIB5COxlbvKjvwWHcHCQHktAF4hlXxovlbhMVSN7t4qK5x1YsUW9SriuFa-B287JXAnDQQxkS2hJa1hjfN07TE6Pz9ALTsOcEyk",
+                       "photo_reference" : "AZose0nm0jlcAyMDjkg9zs_iryt7yXsirQWMl_tOw6CMJf71MxsWvE0PpiW7wrC4SFp34xxfee-76pXxVJNAlMA401WKx307-qEbAQDp83gkEoHR37UkVfPLHYN_pCmRBDXfplgTo33mk6L-yobNB0nkn0yB_fXUdzO-RiUMVeifiHPdJsLV",
                        "width" : 3264
                     }
                  ],
@@ -570,7 +570,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/110636782004488306570\"\u003eFranquell Quarles\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0mLe5oI7QjjGTJprO6mqPE6fCmAHytl11nZQaE4WQbMLGAQtBRHlD7XD7OVh_jzbxmXMVMPeRmrJrAH86XlPAwQ0pFLnn2KXEkiwfUHRKQLFd3xk2s9mDzt1M4f9tLLhcZjn53ssVT8WXJf-bvi7gz8Pp84-zGnNopHuCb-NzPt1a-R",
+                       "photo_reference" : "AZose0nNsglnl551blG22vUxhcRn6sfNfiDX0a8Xxhp53A2t1q14o7ft_FQy9-NSYg0uq915LE3Dp5lFZQsOBK4ZSAxrezGIdEObXa9KlxrNqC66DLtcik4v25Kt_OFy7dpScbMf8PgGnUHPthQBDociAZdQfFrEfDHUtybK9-cioGgCRU_Z",
                        "width" : 2448
                     }
                  ],
@@ -616,7 +616,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/115011533634168875902\"\u003eDavid Lauten\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0noI5mnW_UgZ4YEgMtqmnQawJbIs6VAAMo4WLXHqZXyBsRFKC5AtH3Z-VHY0n6PpFkuQ064htH8EoYJg4obLMD4Nj9BShxG10iywLj4KmtsiRnQ11yGMKWqPB3zgj3fBdNnAWEgWkqy8D9GLt95zqlFgtWQ9RMnyOzvtCD1CCug9Nan",
+                       "photo_reference" : "AZose0mXrxGvyJ2ra6CpK3KURZkSQMvXmEVpcGwgLCKslUI5lMDZpFaPuAhLr8c9kFDURvLQBMxRaOdZibOFXzCv3Flayx3Tgk0s9sctfpX9gC1HjEGvjQbQjj8LI3YPkTFLE1R0kGAdyfpeyzRbac9aWP5Uy8RUyz4G6G2uQnSsVz-5cR4L",
                        "width" : 3024
                     }
                  ],
@@ -662,7 +662,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/105383261874985037792\"\u003eBruce Douglas\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0lTCKZHw6f42upgzuahEoXgfAqmKUUeerMKEz8Ggsh1b1eAxxWcaYPlJ8cs-uPoouUeXzlGZZKN9ebARIRzuCn-62AdFKSZaLNZc_TZxKqx6kLysDCKDEK-FRWsL2hPv42oWdPxME4fqOhLIQeznV9uLTa5rxo7xoRo4DD4hpcreMhZ",
+                       "photo_reference" : "AZose0m6G9E48i658d9HGPpAOBtNsiLnqNzqilF1_UHyKhXZC6FhXaVYl9duc_3GzlZSaF25aOHipuvb_KEJtitM92lKCFQ6nQ7nNcztfi5B5-ToL1bSa40dMG6XT3cH2j-ym2Vxo-Xc2b791-E6JoTozt-TcTmMC1PHzQdKPGuaXHVU8J3W",
                        "width" : 5312
                     }
                  ],
@@ -675,98 +675,6 @@ http_interactions:
                  "reference" : "ChIJg591W4qJa4cRpt-hPouWFLY",
                  "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
                  "user_ratings_total" : 1701
-              },
-              {
-                 "business_status" : "OPERATIONAL",
-                 "formatted_address" : "Westminster, CO 80021, United States",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 39.86024860000001,
-                       "lng" : -105.0778375
-                    },
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 39.86170197989272,
-                          "lng" : -105.0762122701073
-                       },
-                       "southwest" : {
-                          "lat" : 39.85900232010727,
-                          "lng" : -105.0789119298927
-                       }
-                    }
-                 },
-                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
-                 "icon_background_color" : "#4DB546",
-                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
-                 "name" : "Westglenn Park",
-                 "opening_hours" : {
-                    "open_now" : false
-                 },
-                 "photos" : [
-                    {
-                       "height" : 4160,
-                       "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/102880853160984116089\"\u003eAnthoni Mcmillan\u003c/a\u003e"
-                       ],
-                       "photo_reference" : "AZose0koow1NwvhOGv9gQOECcHtm7m7nbJd14H1hOwVQv6z5Ww2X000ymtkcuHFc50Q3hmsUZSJBKj3bv5uI_zJwwtp9IA1x9tvOCBSFcWlhi3w2TW9dnRx9s97apW-dAC2QAZM76xz_Hq069svZeytO8xOgQXoylQmDVjB9o5lPW5z4CuWv",
-                       "width" : 2340
-                    }
-                 ],
-                 "place_id" : "ChIJd-L0e1yJa4cRdo7bSwlSRfM",
-                 "plus_code" : {
-                    "compound_code" : "VW6C+3V Westminster, Colorado",
-                    "global_code" : "85FPVW6C+3V"
-                 },
-                 "rating" : 4.5,
-                 "reference" : "ChIJd-L0e1yJa4cRdo7bSwlSRfM",
-                 "types" : [ "park", "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 12
-              },
-              {
-                 "business_status" : "OPERATIONAL",
-                 "formatted_address" : "9714 Marshall Way, Westminster, CO 80021, United States",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 39.8732015,
-                       "lng" : -105.0690563
-                    },
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 39.87460817989272,
-                          "lng" : -105.0678365701073
-                       },
-                       "southwest" : {
-                          "lat" : 39.87190852010728,
-                          "lng" : -105.0705362298927
-                       }
-                    }
-                 },
-                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
-                 "icon_background_color" : "#4DB546",
-                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
-                 "name" : "Westcliff Neighborhood Park",
-                 "opening_hours" : {
-                    "open_now" : true
-                 },
-                 "photos" : [
-                    {
-                       "height" : 3024,
-                       "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/108951603235658464953\"\u003eLloyd McElheny\u003c/a\u003e"
-                       ],
-                       "photo_reference" : "AZose0kNtoC24PV1qBPuseO4qXt1_lsGIba0_suLkEnCRhNiFgYBExYJDQpHQUTq339ltJMvLGmFEDm-EuVIWJXihlOJycR6Wb0ymwEexiXTI6rCCZKpC-QbpfCTVPr14K3LAF9_uKC3vwXgNxnOpkZCPeO_qZHMV5aKYWOspSXHBuqkzUzA",
-                       "width" : 4032
-                    }
-                 ],
-                 "place_id" : "ChIJ0UWyj5mJa4cRWsbySR9t6JM",
-                 "plus_code" : {
-                    "compound_code" : "VWFJ+79 Westminster, Colorado",
-                    "global_code" : "85FPVWFJ+79"
-                 },
-                 "rating" : 4.6,
-                 "reference" : "ChIJ0UWyj5mJa4cRWsbySR9t6JM",
-                 "types" : [ "park", "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 25
               },
               {
                  "business_status" : "OPERATIONAL",
@@ -800,7 +708,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/112819818945043576491\"\u003eTad Amore\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0kIDCyTt_f80hZLUuaHaZAZdiHQSXdSLCPmQI7EAS2oXd_9prVPCJhKS4lkW9XEw7A0m7iZR0PMQE9bDN8vz8ISvwNPkAGoKmclo5mf8n6oxFgIBFJRZIOzPw5VzYJSiEJhum3vSP1dXGj4U-xSAEIMk9xuVosQk-vvn3Zeiu5TocPF",
+                       "photo_reference" : "AZose0kxkPh784V-ZUy9mDknZr3UNf5IZ1yh4yflmRjSG41pGE45nHQn60TyiFZk64oFGKPjbOH46LYfyn2ZWwMEuJgcThBJpC640q2YthAn3glCkqyT3T8oV4TRH8swUX_5kZDJoVNuaEbwImnlUdmb2PYcTeu2sODHE4Tpzs8F0f5l9jLQ",
                        "width" : 3024
                     }
                  ],
@@ -843,7 +751,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/116708735244185827791\"\u003eValerie Mino\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0nyr76Z1_QAcrbF8HRpH7KRuPSmEO-8hx3qQD8hckv0dDJpS4JOwzuOie4qw6XsRkT4_L8iLJNj3GkPtMxAqIdRnUVerf61-KrCmYOpf7NhyepmW5rRPmRbzwBXNP6F-o3ColxGb5D5YhLO3nlMB7_BncQc_er0sLcmk4O7pTnNSa6x",
+                       "photo_reference" : "AZose0ms0-zAnS4T2DcZtQFNsUg07hSGMzElf8xnpifSBzZmNG32CrY-zkyXt28o_WdjR60kPY93TkamCJKKNPGd93WuhuDkrC7-BtbXZywoTWuNr-EqnXypziCESsIJxQaEIsT3BrYmE_YomeDDfxUNcTOO3X7FIo-adfARphkcwJNLTyfz",
                        "width" : 4624
                     }
                  ],
@@ -889,7 +797,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/105280007596488476867\"\u003eBentlie Ueno\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0kyDImmHeK1VdCFbMB7W-gwTywBokf9TlDCUSeU9lgfDuCdbgDggkldlZ1GVrT13Owil1kpWHbtrKckutZgubkEJzqqhwFGeERdRRlkrg4Nb_XjXzVsg1zMcNiumIgdV5vxonyJQMV1KJx38fTGXAuqQsVNFwcoLRyxsv6BFqKd1I2Q",
+                       "photo_reference" : "AZose0kA8cGG8lqY_LnQpoh-6g-dDfT9syUnZsU_kZRypYvfDMaWOAQu0lTxatwDnfwzwXPUAwg0jp-38DgpiEr1uDpCng5N0BW9foF2MYkP41htMLLmZIyIn4vu4kh5Wj9yUvpENgQAuyupkcsvIgDfYr8KO88Kr33ReuE42nJIXTUeUNnV",
                        "width" : 1800
                     }
                  ],
@@ -905,49 +813,144 @@ http_interactions:
               },
               {
                  "business_status" : "OPERATIONAL",
-                 "formatted_address" : "Pierce St &, W 92nd Ave, Westminster, CO 80031, United States",
+                 "formatted_address" : "11550 Wolff St, Westminster, CO 80031, United States",
                  "geometry" : {
                     "location" : {
-                       "lat" : 39.8645361,
-                       "lng" : -105.0710166
+                       "lat" : 39.9043369,
+                       "lng" : -105.0469894
                     },
                     "viewport" : {
                        "northeast" : {
-                          "lat" : 39.86591527989272,
-                          "lng" : -105.0693995201073
+                          "lat" : 39.90564402989273,
+                          "lng" : -105.0460939201073
                        },
                        "southwest" : {
-                          "lat" : 39.86321562010728,
-                          "lng" : -105.0720991798927
+                          "lat" : 39.90294437010728,
+                          "lng" : -105.0487935798927
                        }
                     }
                  },
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
                  "icon_background_color" : "#4DB546",
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
-                 "name" : "Semper Farm Open Space",
+                 "name" : "Westfield Village Park",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1080,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115708358150487899580\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0kpGjGtx_MmUHcWdto6QIxK_Gyaqlvo8_FMC5IwKelTy12yMDJl5Xzi-h_Jubfd77z8DQ6dULcce2Gh_zGofGNVvEvB2Mhz8ISQoUMW8GpSpI9AXfn066N2agj529FrpbkM7kitBDOiXSHcGR_qtMUIi4kZlOasHmzTeDoW2kydStwZ",
+                       "width" : 1920
+                    }
+                 ],
+                 "place_id" : "ChIJW5pgBxGKa4cRsMHesCFzXa8",
+                 "plus_code" : {
+                    "compound_code" : "WX33+P6 Westminster, Colorado",
+                    "global_code" : "85FPWX33+P6"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJW5pgBxGKa4cRsMHesCFzXa8",
+                 "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 151
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "11320 Kendall St, Westminster, CO 80020, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.9021546,
+                       "lng" : -105.0652397
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.90350087989272,
+                          "lng" : -105.0643156201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.90080122010728,
+                          "lng" : -105.0670152798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Sherwood Park",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
                  "photos" : [
                     {
                        "height" : 3024,
                        "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/107208790221980340349\"\u003eLaura Owsley\u003c/a\u003e"
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/111051994176096132600\"\u003eBrett Stakelin\u003c/a\u003e"
                        ],
-                       "photo_reference" : "AZose0mmJVFMlkeyhO0ggKFTzHr1YFsKEAe3OTgHV4Uu-nSBxMx2CXyLQYgPJhzcO2saTGc9MVkkbNJXVLOF1DkPVpw9VJGx5EgLRcLEUfSO2XlEqpvvT82qJxhEAtAmaRHlgIcpnc99K9X7QPShpovVqt47tT4ShkDaxXLQG1xV9JiCfmqz",
+                       "photo_reference" : "AZose0k5eTtdJND3W85KZqeU6nZTjacBO6F08asFjtz6e9lxGV1DYEodTjQsFVEoOEAasemskZ-mGWEM6qh5cYNs5AkSy6GpvXZgBjooM9Ck0pM6DbedCbpYOwkT4sEmjNTTjRrqCb1q3TljYFIIJqRYVYks7dRk0sfjw0fLnRDDSBqRkBNS",
                        "width" : 4032
                     }
                  ],
-                 "place_id" : "ChIJ797UDY6Ja4cRV_Zg2RlYais",
+                 "place_id" : "ChIJkztPqDuKa4cRQvB6AR8rwLs",
                  "plus_code" : {
-                    "compound_code" : "VW7H+RH Westminster, Colorado",
-                    "global_code" : "85FPVW7H+RH"
+                    "compound_code" : "WW2M+VW Westminster, Colorado",
+                    "global_code" : "85FPWW2M+VW"
                  },
                  "rating" : 4.4,
-                 "reference" : "ChIJ797UDY6Ja4cRV_Zg2RlYais",
+                 "reference" : "ChIJkztPqDuKa4cRQvB6AR8rwLs",
                  "types" : [ "park", "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 15
+                 "user_ratings_total" : 109
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "formatted_address" : "4321 W 78th Ave, Westminster, CO 80030, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.8384258,
+                       "lng" : -105.0465278
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.83963812989273,
+                          "lng" : -105.0451784201073
+                       },
+                       "southwest" : {
+                          "lat" : 39.83693847010728,
+                          "lng" : -105.0478780798927
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                 "icon_background_color" : "#4DB546",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                 "name" : "Sunset Park",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/102756870683303527656\"\u003eNancy Pattison\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "AZose0lOt9kXHXyJGWkMaOStSodIP5EV1l9vDQLljkz403g9CDwgCNMwQccWq7sI7kmjPi2A7LOK_S_YwE4HpCbwDx2xWayTKyV4BQdJKnXkZ7q-tC4gYpGj04o8rThj1csgaG2YG-jM4eCUp25ZOHDm9YSqSME7B8jHMFasMmsdvtCXhCCJ",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJtTEFizqIa4cRa-8MIaLFrgs",
+                 "plus_code" : {
+                    "compound_code" : "RXQ3+99 Westminster, Colorado",
+                    "global_code" : "85FPRXQ3+99"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJtTEFizqIa4cRa-8MIaLFrgs",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 91
               }
            ],
            "status" : "OK"
         }
-  recorded_at: Sun, 04 Jun 2023 05:01:12 GMT
+  recorded_at: Sun, 04 Jun 2023 05:33:03 GMT
 recorded_with: VCR 6.1.0
