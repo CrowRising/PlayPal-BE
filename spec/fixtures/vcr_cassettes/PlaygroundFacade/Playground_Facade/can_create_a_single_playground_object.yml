@@ -1,0 +1,331 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/details/json?key=<GOOGLE_API_KEY>&place_id=ChIJz7xda7iLa4cRYNf2sN8C17I
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 04 Jun 2023 21:23:03 GMT
+      Expires:
+      - Sun, 04 Jun 2023 21:28:03 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - scaffolding on HTTPServer2
+      Content-Length:
+      - '12992'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=131
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "result" : {
+              "address_components" : [
+                 {
+                    "long_name" : "7577",
+                    "short_name" : "7577",
+                    "types" : [ "street_number" ]
+                 },
+                 {
+                    "long_name" : "West 103rd Avenue",
+                    "short_name" : "W 103rd Ave",
+                    "types" : [ "route" ]
+                 },
+                 {
+                    "long_name" : "West Central Westminster",
+                    "short_name" : "West Central Westminster",
+                    "types" : [ "neighborhood", "political" ]
+                 },
+                 {
+                    "long_name" : "Westminster",
+                    "short_name" : "Westminster",
+                    "types" : [ "locality", "political" ]
+                 },
+                 {
+                    "long_name" : "Jefferson County",
+                    "short_name" : "Jefferson County",
+                    "types" : [ "administrative_area_level_2", "political" ]
+                 },
+                 {
+                    "long_name" : "Colorado",
+                    "short_name" : "CO",
+                    "types" : [ "administrative_area_level_1", "political" ]
+                 },
+                 {
+                    "long_name" : "United States",
+                    "short_name" : "US",
+                    "types" : [ "country", "political" ]
+                 },
+                 {
+                    "long_name" : "80021",
+                    "short_name" : "80021",
+                    "types" : [ "postal_code" ]
+                 },
+                 {
+                    "long_name" : "5426",
+                    "short_name" : "5426",
+                    "types" : [ "postal_code_suffix" ]
+                 }
+              ],
+              "adr_address" : "\u003cspan class=\"street-address\"\u003e7577 W 103rd Ave\u003c/span\u003e, \u003cspan class=\"locality\"\u003eWestminster\u003c/span\u003e, \u003cspan class=\"region\"\u003eCO\u003c/span\u003e \u003cspan class=\"postal-code\"\u003e80021-5426\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eUSA\u003c/span\u003e",
+              "business_status" : "OPERATIONAL",
+              "current_opening_hours" : {
+                 "open_now" : true,
+                 "periods" : [
+                    {
+                       "close" : {
+                          "date" : "2023-06-10",
+                          "day" : 6,
+                          "time" : "2359",
+                          "truncated" : true
+                       },
+                       "open" : {
+                          "date" : "2023-06-04",
+                          "day" : 0,
+                          "time" : "0000",
+                          "truncated" : true
+                       }
+                    }
+                 ],
+                 "weekday_text" : [
+                    "Monday: Open 24 hours",
+                    "Tuesday: Open 24 hours",
+                    "Wednesday: Open 24 hours",
+                    "Thursday: Open 24 hours",
+                    "Friday: Open 24 hours",
+                    "Saturday: Open 24 hours",
+                    "Sunday: Open 24 hours"
+                 ]
+              },
+              "formatted_address" : "7577 W 103rd Ave, Westminster, CO 80021, USA",
+              "formatted_phone_number" : "(202) 659-0215",
+              "geometry" : {
+                 "location" : {
+                    "lat" : 39.8848723,
+                    "lng" : -105.0784862
+                 },
+                 "viewport" : {
+                    "northeast" : {
+                       "lat" : 39.88609348029149,
+                       "lng" : -105.0771427197085
+                    },
+                    "southwest" : {
+                       "lat" : 39.88339551970849,
+                       "lng" : -105.0798406802915
+                    }
+                 }
+              },
+              "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+              "icon_background_color" : "#7B9EB0",
+              "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+              "international_phone_number" : "+1 202-659-0215",
+              "name" : "Sensory Park",
+              "opening_hours" : {
+                 "open_now" : true,
+                 "periods" : [
+                    {
+                       "open" : {
+                          "day" : 0,
+                          "time" : "0000"
+                       }
+                    }
+                 ],
+                 "weekday_text" : [
+                    "Monday: Open 24 hours",
+                    "Tuesday: Open 24 hours",
+                    "Wednesday: Open 24 hours",
+                    "Thursday: Open 24 hours",
+                    "Friday: Open 24 hours",
+                    "Saturday: Open 24 hours",
+                    "Sunday: Open 24 hours"
+                 ]
+              },
+              "photos" : [
+                 {
+                    "height" : 3072,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://maps.google.com/maps/contrib/115025975672388095624\"\u003eDoug Sprowls\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "AZose0lLzuviKUBjDeyhZep_Fqo9kpo_kvdf4b9oIb6_nT3lVK6ehB5w3O_inNuOaoFJYphIWmOcQTWOG83XZ4XBKaRHta4WPtndduNluJhwvsEipc0Yq14RQFlJSHvTwq2yZrFLSgsprfvdxlANofzjz-KbLCazqwDmTwU4dtLC1QFI54Fz",
+                    "width" : 4080
+                 },
+                 {
+                    "height" : 3024,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://maps.google.com/maps/contrib/103645735629449955832\"\u003eYadira Alcantu\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "AZose0kSmsI4twDKhqASYK9yzkpvqkW0jfptUCQYN9GBh4TQYr4C4P8elih__iCKjRmQQvvxsqS6MO-9ZHlvab-1MlHTHTWQXJdPV9mc9Q2uZaEKm99jHTWyvBVouyuSno0N1b9mu7Hfx098DO4rGbIzfM13fpkErHWmnL0UtL0Y4TGil5kA",
+                    "width" : 4032
+                 },
+                 {
+                    "height" : 3024,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://maps.google.com/maps/contrib/108405334864890361281\"\u003esel cet\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "AZose0nxK1TM4TXa-G4gEnD_yLP-6QEpenJB-SUhKJt24rCN48BFVOX9SEolXD80QaXLhZ8Tm6pK6kkDcpPjCTj4NWruaQH64KAZuDhZUy2-YVTVhMhPV22wv3wq9Usj-Uh_7Jf--mhdrtF3JUAzKR7jPNoWXQfj_jZtDK4K3paJq4N9MCev",
+                    "width" : 4032
+                 },
+                 {
+                    "height" : 4032,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://maps.google.com/maps/contrib/105280007596488476867\"\u003eDavid Ueno\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "AZose0kCK-n861_5nFqh_Nftytsdmtp96Ss2RHaISBhumE17XVQO6JjAAWTN74otUZ5oaPOdnrL45kim8u6c8HOqQ_5YH5CX1Fij1Xa9uBWH70SESea0kEJzOP3rUCx7nzBPoflNXCWiIx_G_ZD2AhagPSq3wZn9we8lI9eDTGumJ26nUEs0",
+                    "width" : 3024
+                 },
+                 {
+                    "height" : 4032,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://maps.google.com/maps/contrib/101426897288847406475\"\u003eMichael Kollar\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "AZose0kmdzTlXqexHT66uhzja4Am5q2JHJZaLI30mY-5p--N0YE_nZZldW9Q3Sv2mwo39jgElm7eYZeRkJPipF7bkkqq0nx9AJtSYyKnLzwvT-zxoM77JxloYCrDQK3-qGHnRd6X-zwnAy1ozWhMEdw4s8dSF9QPQtRr3p0p1TBqiTn4cleu",
+                    "width" : 3024
+                 },
+                 {
+                    "height" : 1080,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://maps.google.com/maps/contrib/104978193659145775545\"\u003eAlex Green\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "AZose0nP2volNX1DpqntTEs6m0SqBRKc8ShLbk3l4D-QnjvnCLmeIr9L6Znb0q4dvJcbtD5w221N1tk9REwTclfXuqGUfPLn6W5T5Z33Lwb9HAdOByDX4HcydiEdlJ5wRICKF6OvUDnqX_sRO30P1uJIG8YuHgz-qi9GMbOFw1XPzBm_EaZY",
+                    "width" : 1920
+                 },
+                 {
+                    "height" : 3024,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://maps.google.com/maps/contrib/108405334864890361281\"\u003esel cet\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "AZose0m5MNmsWBcN87I03llUme6waBGTTFX_P0uN2VwOkwoDKzjUD_Cn1y7gdOTKwa7Xg_c2gWwlYgId3aTAkBNe15NJ2QPR4O_CEbPnyItmvUmdFsMMkSN6WXBnyDrQ7Yp5N3zQc6NmexjDC2_vR2ZmrZRGJYp4fdS9rbIdx7ayMqxozl9K",
+                    "width" : 4032
+                 },
+                 {
+                    "height" : 4032,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://maps.google.com/maps/contrib/101426897288847406475\"\u003eMichael Kollar\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "AZose0mt4bc6Dxhfe-dz4Fp1OB6ElnGhpSWDYcO4uIn-Sb9Td6ww1XV5csBt1nOTlGXb7ed54Qc5y8fqSLQ41IKZ3BsLIq5byvHC6rJRUCG00vmWJMzgw9UTuVdVuxovwyk-41XoI-Ms2QwqIE_edNTovmCGfNnDt_jMLcnavtGx5g_pKnbZ",
+                    "width" : 3024
+                 },
+                 {
+                    "height" : 3072,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://maps.google.com/maps/contrib/101448282328336978526\"\u003eAlfredo Garcia\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "AZose0njcSN3X0FwGHYtOjLJbaXgnJjuTwuRYWeU5EDJ5Ka6fLSRFcMTi2Jk4IQvGgKHHELQZ6IhcejiIfrdw_CBTIYuSLGZd15lPjpQap9idLnDdsrYu7-xcyk-nxG7qe6o_W88AZwBkhXx-0vAxisDwMC0LSklYxKmTqEPou9Icp0RPhEN",
+                    "width" : 4096
+                 },
+                 {
+                    "height" : 4032,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://maps.google.com/maps/contrib/101426897288847406475\"\u003eMichael Kollar\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "AZose0nitCLCt_Eenpjqtx7AJ77vlp4_8mTph6K9wzkadfJHAnpFxmyRJOGjhbWMfzsuapHyNdOi-GS9aTBInB0uOezlG19iIMQhUoCCAsKq1BccqjUhJu0Ob96Jyyo5mhxYSH4Aq-AkmL4mG4kx3zv537F8H9NUsoLN2NQb-qQmzTVrgiy-",
+                    "width" : 3024
+                 }
+              ],
+              "place_id" : "ChIJz7xda7iLa4cRYNf2sN8C17I",
+              "plus_code" : {
+                 "compound_code" : "VWMC+WJ Westminster, CO, USA",
+                 "global_code" : "85FPVWMC+WJ"
+              },
+              "rating" : 4.5,
+              "reference" : "ChIJz7xda7iLa4cRYNf2sN8C17I",
+              "reviews" : [
+                 {
+                    "author_name" : "Jon Gingrich",
+                    "author_url" : "https://www.google.com/maps/contrib/107341821788162587264/reviews",
+                    "language" : "en",
+                    "original_language" : "en",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD_cMMTqZq2sfOp2FVxu-D_B4j0-XGVxDiqaYkfc-F_V=s128-c0x00000000-cc-rp-mo-ba4",
+                    "rating" : 4,
+                    "relative_time_description" : "3 weeks ago",
+                    "text" : "It's a super fun park, tucked behind some businesses. You can see the park behind Target. There's lots of fun sensory pieces to play on. Definitely recommend for little kids!",
+                    "time" : 1684090667,
+                    "translated" : false
+                 },
+                 {
+                    "author_name" : "Jennifer Ditton",
+                    "author_url" : "https://www.google.com/maps/contrib/113410368848121059988/reviews",
+                    "language" : "en",
+                    "original_language" : "en",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD_cMMRKo4PC59Lp-NowmcJf7paeXeD5VbWoQ_ZRjhd9pIU=s128-c0x00000000-cc-rp-mo-ba3",
+                    "rating" : 5,
+                    "relative_time_description" : "2 months ago",
+                    "text" : "Great park for all ages! There is NO bathroom so plan accordingly!\nPark shelter in the middle has several tables, but often has wasps in the summertime.",
+                    "time" : 1680644810,
+                    "translated" : false
+                 },
+                 {
+                    "author_name" : "Brandi W",
+                    "author_url" : "https://www.google.com/maps/contrib/109641716672033914007/reviews",
+                    "language" : "en",
+                    "original_language" : "en",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a/AAcHTtfhC_OiAE0mFaoNUo454SBjkQDEXqjK56QTcDiC=s128-c0x00000000-cc-rp-mo",
+                    "rating" : 5,
+                    "relative_time_description" : "a month ago",
+                    "text" : "We Love this park. My kid's enjoyed it very much. Will definitely go back. They have lot's of toys for lot's of kid's.",
+                    "time" : 1682534861,
+                    "translated" : false
+                 },
+                 {
+                    "author_name" : "Russell Friend",
+                    "author_url" : "https://www.google.com/maps/contrib/113242761925245638143/reviews",
+                    "language" : "en",
+                    "original_language" : "en",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD_cMMRdW9aqoTsTArMJ92LPcsvMnPlnVCu6FLWGh_6qPQ=s128-c0x00000000-cc-rp-mo",
+                    "rating" : 5,
+                    "relative_time_description" : "a month ago",
+                    "text" : "Awesome park!! My 6yr old loved it!! We will definitely be coming back again.",
+                    "time" : 1681764646,
+                    "translated" : false
+                 },
+                 {
+                    "author_name" : "Amy onate",
+                    "author_url" : "https://www.google.com/maps/contrib/105037172546957546409/reviews",
+                    "language" : "en",
+                    "original_language" : "en",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD_cMMQbdm1JfkT_MKuP1hiWwukJqEeB70NPNTMBLMzMGg=s128-c0x00000000-cc-rp-mo-ba4",
+                    "rating" : 5,
+                    "relative_time_description" : "2 years ago",
+                    "text" : "My 1 and a half year old had a fun time in this cute park! Definitely recommend for toddlers!",
+                    "time" : 1617507236,
+                    "translated" : false
+                 }
+              ],
+              "types" : [ "tourist_attraction", "park", "point_of_interest", "establishment" ],
+              "url" : "https://maps.google.com/?cid=12886772018513893216",
+              "user_ratings_total" : 160,
+              "utc_offset" : -360,
+              "vicinity" : "7577 West 103rd Avenue, Westminster",
+              "website" : "https://kaboom.org/resources/build_playground_toolkit/accessibility/featured_accessible_playspaces/westminster_sensory_park",
+              "wheelchair_accessible_entrance" : true
+           },
+           "status" : "OK"
+        }
+  recorded_at: Sun, 04 Jun 2023 21:23:02 GMT
+recorded_with: VCR 6.1.0
