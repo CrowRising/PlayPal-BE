@@ -50,6 +50,7 @@ group :development, :test do
   # gem "vcr"
   gem "shoulda-matchers"
   gem 'jsonapi-serializer'
+  gem 'simplecov'
 end
 
 group :development do
