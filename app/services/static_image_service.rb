@@ -23,5 +23,3 @@ class StaticImageService
     get_url("#{lon},#{lat},17,0,24/450x300")
   end
 end
-
-# https://api.mapbox.com/styles/v1/mapbox/satellite-v9/static/-105.0875,39.8541,17,0,24/450x300
