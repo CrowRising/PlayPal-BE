@@ -10,13 +10,7 @@ RSpec.describe PlaygroundFacade do
       expect(pg.playground_name).to eq("Sensory Park")
       expect(pg.playground_address).to eq("7577 W 103rd Ave, Westminster, CO 80021, USA")
       expect(pg.rating).to eq(4.5)
+      expect(pg.image).to be_a String
     end
   end
-
-   it 'can return sat image as an object', :vcr do
-    pg = PlaygroundFacade.new('ChIJz7xda7iLa4cRYNf2sN8C17I').image
-
-    expect(pg).to be_a StaticImage
-    expect(pg.image_data).to be_a String
-   end
 end

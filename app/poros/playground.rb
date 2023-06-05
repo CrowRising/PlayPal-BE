@@ -1,17 +1,15 @@
 class Playground
   attr_reader :playground_name,
               :playground_address,
-              :lat,
-              :lon,
               :id,
-              :rating
+              :rating,
+              :image
 
-  def initialize(data)
+  def initialize(data, image_data=nil)
     @playground_name = data[:name]
     @playground_address = data[:formatted_address]
-    @lat = data[:geometry][:location][:lat]
-    @lon = data[:geometry][:location][:lng]
     @id = data[:place_id]
-    @rating = data[:rating] 
+    @rating = data[:rating]
+    @image = image_data
   end 
 end
