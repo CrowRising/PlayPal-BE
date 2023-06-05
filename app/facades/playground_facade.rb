@@ -5,11 +5,7 @@ class PlaygroundFacade
   end
 
   def playground
-    @_playground ||= Playground.new(playground_data)
-  end
-
-  def image
-    @_image ||= StaticImage.new(image_data)
+    @_playground ||= Playground.new(playground_data, image_data)
   end
 
   private
@@ -27,7 +23,7 @@ class PlaygroundFacade
   end
 
   def image_data
-    @_image_data ||= image_service.get_image(playground.lon, playground.lat)
+    @_image_data ||= image_service.get_image[:urls][:small]
   end
 
 end
