@@ -4,6 +4,6 @@ class Api::V0::PlaygroundsController < ApplicationController
   end
 
   def show
-
+    render json: PlaygroundSerializer.new(PlaygroundFacade.new(params[:playground_id]).playground)
   end
 end

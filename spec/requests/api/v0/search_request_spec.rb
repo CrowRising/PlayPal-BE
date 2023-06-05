@@ -27,7 +27,7 @@ RSpec.describe 'Search', type: :request do
   end
 
   describe 'Single playgroud search' do
-    it 'returns a single playgrounds data by its id' do
+    it 'returns a single playgrounds data by its id', :vcr do
       headers = {"CONTENT_TYPE" => "application/json"}
       get "/api/v0/playgrounds/ChIJz7xda7iLa4cRYNf2sN8C17I", headers: headers
 
@@ -42,9 +42,9 @@ RSpec.describe 'Search', type: :request do
       expect(playground[:data]).to have_key(:id)
       expect(playground[:data]).to have_key(:type)
       expect(playground[:data]).to have_key(:attributes)
-      expect(playground[:data][:attributes]). have_key(:playground_name)
-      expect(playground[:data][:attributes]). have_key(:playground_address)
-      expect(playground[:data][:attributes]). have_key(:rating)
+      expect(playground[:data][:attributes]).to have_key(:playground_name)
+      expect(playground[:data][:attributes]).to have_key(:playground_address)
+      expect(playground[:data][:attributes]).to have_key(:rating)
     end
   end
 end

@@ -4,26 +4,34 @@ RSpec.describe 'Reviews', type: :request do
   describe 'GET /reviews' do
     it 'returns all reviews' do
       create_list(:review, 10, playground_id: 5)
-      
-      get '/api/v0/playgrounds/5/reviews'
+      create_list(:review, 10, playground_id: 6)
+
+      headers = {"CONTENT_TYPE" => "application/json"}
+      get '/api/v0/playgrounds/5/reviews', headers: headers
 
       expect(response).to have_http_status(:success)
-      expect(JSON.parse(response.body).size).to eq(10)
+      
 
       reviews = JSON.parse(response.body, symbolize_names: true)
-      reviews.each do |review|
+      
+      expect(reviews).to be_a Hash
+      expect(reviews).to have_key(:data)
+      expect(reviews[:data]).to be_an Array
+      expect(reviews[:data].count).to eq(10)
+
+      reviews[:data].each do |review|
         expect(review).to have_key(:id)
-        expect(review[:id]).to be_a(Integer)
-        expect(review).to have_key(:user_id)
-        expect(review[:user_id]).to be_a(Integer)
-        expect(review).to have_key(:playground_id)
-        expect(review[:playground_id]).to be_a(Integer)
-        expect(review).to have_key(:rating)
-        expect(review[:rating]).to be_a(Integer)
-        expect(review).to have_key(:comment)
-        expect(review[:comment]).to be_a(String)
-        expect(review).to have_key(:image)
-        expect(review[:image]).to be_a(String)
+        expect(review[:id]).to be_a String 
+        expect(review[:attributes]).to have_key(:user_id)
+        expect(review[:attributes][:user_id]).to be_a Integer 
+        expect(review[:attributes]).to have_key(:playground_id)
+        expect(review[:attributes][:playground_id]).to be_a Integer 
+        expect(review[:attributes]).to have_key(:rating)
+        expect(review[:attributes][:rating]).to be_a Integer 
+        expect(review[:attributes]).to have_key(:comment)
+        expect(review[:attributes][:comment]).to be_a String 
+        expect(review[:attributes]).to have_key(:image)
+        expect(review[:attributes][:image]).to be_a String 
       end
     end
   end
@@ -38,7 +46,7 @@ RSpec.describe 'Reviews', type: :request do
         playground_id: 1
       })
       headers = { 'CONTENT_TYPE' => 'application/json' }
-      post '/api/v0/playgrounds/reviews', headers: headers, params: JSON.generate(review_params)
+      post '/api/v0/playgrounds/reviews', headers: headers, params: JSON.generate(reviews: review_params)
       created_review = Review.last
       
       expect(response).to be_successful

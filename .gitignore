@@ -30,4 +30,5 @@
 
 # Ignore application configuration
 /config/application.yml
-/fixtures
+/spec/fixtures
+/coverage

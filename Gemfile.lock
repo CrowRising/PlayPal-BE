@@ -82,6 +82,7 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     diff-lcs (1.5.0)
+    docile (1.4.0)
     erubi (1.12.0)
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
@@ -198,6 +199,12 @@ GEM
     ruby2_keywords (0.0.5)
     shoulda-matchers (5.3.0)
       activesupport (>= 5.2.0)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
     thor (1.2.2)
     timeout (0.3.2)
     tzinfo (2.0.6)
@@ -231,6 +238,7 @@ DEPENDENCIES
   rails (~> 7.0.5)
   rspec-rails
   shoulda-matchers
+  simplecov
   tzinfo-data
   vcr
   webmock
