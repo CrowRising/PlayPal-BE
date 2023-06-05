@@ -45,6 +45,7 @@ RSpec.describe 'Search', type: :request do
       expect(playground[:data][:attributes]).to have_key(:playground_name)
       expect(playground[:data][:attributes]).to have_key(:playground_address)
       expect(playground[:data][:attributes]).to have_key(:rating)
+      expect(playground[:data][:attributes]).to have_key(:image)
     end
   end
 end
