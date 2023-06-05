@@ -4,7 +4,7 @@ RSpec.describe PlaygroundFacade do
   describe 'Playground Facade' do
     it 'can create a single playground object', :vcr do
       pg = PlaygroundFacade.new('ChIJz7xda7iLa4cRYNf2sN8C17I').playground
-require 'pry'; binding.pry
+
       expect(pg).to be_a Playground
       expect(pg.id).to eq("ChIJz7xda7iLa4cRYNf2sN8C17I")
       expect(pg.playground_name).to eq("Sensory Park")

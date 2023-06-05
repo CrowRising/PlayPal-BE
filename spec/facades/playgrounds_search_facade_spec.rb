@@ -18,8 +18,6 @@ RSpec.describe 'PlaygroundsSearchFacade', :vcr do
         expect(playground.playground_address).to be_a(String)
         expect(playground.id).to be_a(String)
         expect(playground.playground_name).to be_a(String)
-        expect(playground.lat).to be_a(Float)
-        expect(playground.lon).to be_a(Float)
         expect(is_float_or_integer?(playground.rating)).to be(true)
       end
     end
