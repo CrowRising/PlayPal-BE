@@ -25,7 +25,7 @@ RSpec.describe 'Reviews', type: :request do
         expect(review[:attributes]).to have_key(:user_id)
         expect(review[:attributes][:user_id]).to be_a Integer 
         expect(review[:attributes]).to have_key(:playground_id)
-        expect(review[:attributes][:playground_id]).to be_a Integer 
+        expect(review[:attributes][:playground_id]).to be_a String 
         expect(review[:attributes]).to have_key(:rating)
         expect(review[:attributes][:rating]).to be_a Integer 
         expect(review[:attributes]).to have_key(:comment)
@@ -43,7 +43,7 @@ RSpec.describe 'Reviews', type: :request do
         rating: 5,
         comment: 'This is a test comment',
         image: 'This is a test image',
-        playground_id: 1
+        playground_id: '1'
       })
       headers = { 'CONTENT_TYPE' => 'application/json' }
       post '/api/v0/playgrounds/reviews', headers: headers, params: JSON.generate(reviews: review_params)

@@ -18,7 +18,7 @@ RSpec.describe 'UserPlaygrounds', type: :request do
         expect(user_playground[:attributes]).to have_key(:user_id)
         expect(user_playground[:attributes][:user_id]).to be_an Integer
         expect(user_playground[:attributes]).to have_key(:playground_id)
-        expect(user_playground[:attributes][:playground_id]).to be_an Integer
+        expect(user_playground[:attributes][:playground_id]).to be_an String
         expect(user_playground[:attributes]).to have_key(:playground_name)
         expect(user_playground[:attributes][:playground_name]).to be_a String
       end 
@@ -29,7 +29,7 @@ RSpec.describe 'UserPlaygrounds', type: :request do
     it 'creates a new user_playground' do
       user_playground_params = ({
         user_id: 1,
-        playground_id: 1,
+        playground_id: '1',
         playground_name: 'This is a test playground name'
       })
       headers = { 'CONTENT_TYPE' => 'application/json' }
