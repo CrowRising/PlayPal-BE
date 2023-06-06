@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_01_201530) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_06_031929) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -19,14 +19,14 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_01_201530) do
     t.integer "rating"
     t.string "comment"
     t.string "image"
-    t.integer "playground_id"
+    t.string "playground_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "user_playgrounds", force: :cascade do |t|
     t.integer "user_id"
-    t.integer "playground_id"
+    t.string "playground_id"
     t.string "playground_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
