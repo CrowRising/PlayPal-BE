@@ -1,3 +1,8 @@
+[![Contributors](https://img.shields.io/github/contributors/CrowRising/PlayPal-BE.svg)](https://github.com/CrowRising/PlayPal-BE/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/CrowRising/PlayPal-BE.svg)](https://github.com/CrowRising/PlayPal-BE/forks)
+[![Stargazers](https://img.shields.io/github/stars/CrowRising/PlayPal-BE.svg)](https://githuB.com/CrowRising/PlayPal-BE/stargazers)
+[![Issues](https://img.shields.io/github/issues/CrowRising/PlayPal-BE.svg)](https://github.com/CrowRising/PlayPal-BE/issues)
+
 # PlayPal
 
 ## About This Project
@@ -12,14 +17,45 @@ PlayPal is a playground and park finder app. Designed for parents looking for ne
 * ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 * ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 * ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+* ![Love](https://ForTheBadge.com/images/badges/built-with-love.svg)
 
 ## Running On
   - Rails 7.0.4
   - Ruby 3.1.1
 
-## Getting Started
+## <b>Getting Started</b>
 
-## Usage
+To get a local copy, follow these simple instructions
+
+### <b>Installation</b>
+
+1. Fork the Project
+2. Clone the repo 
+``` 
+git clone git@github.com:CrowRising/PlayPal-FE.git 
+```
+3. Install the gems
+```
+bundle install
+```
+4. Create the database
+```
+rails db:{create,migrate}
+```
+
+5. Create your Feature Branch 
+```
+git checkout -b feature/AmazingFeature
+```
+6. Commit your Changes 
+```
+git commit -m 'Add some AmazingFeature' 
+```
+7. Push to the Branch 
+```
+git push origin feature/AmazingFeature
+```
+8. Open a Pull Request
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -27,11 +63,6 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## Authors
 - Thomas Hawley [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/thawley2) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) ](https://www.linkedin.com/in/thomas-hawley-901612123/)
@@ -40,5 +71,5 @@ Don't forget to give the project a star! Thanks again!
 - Logan Wilson [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ]( https://github.com/Bluedevil667) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) ](https://www.linkedin.com/in/logan-wilson-28422ba0/)
 
 ## Planning Tools
-- [Miro Board](https://miro.com/app/board/uXjVMDHct-E=/)
+- [![Miro Board](https://img.shields.io/badge/Miro-050038?style=for-the-badge&logo=Miro&logoColor=white)](https://miro.com/app/board/uXjVMDHct-E=/)
 - [GitHub Project Board](https://github.com/users/CrowRising/projects/5)
