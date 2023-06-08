@@ -44,10 +44,8 @@ group :development, :test do
   gem "rspec-rails"
   gem "factory_bot_rails"
   gem "pry-rails"
-  gem "pry-byebug"
+  gem "pry"
   gem "faker"
-  # gem "webmock"
-  # gem "vcr"
   gem "shoulda-matchers"
   gem 'jsonapi-serializer'
   gem 'simplecov'

@@ -11,7 +11,7 @@ RSpec.describe 'UserPlaygrounds', type: :request do
       expect(response).to have_http_status(:success)
  
       user_playgrounds = JSON.parse(response.body, symbolize_names: true)
-# require 'pry'; binding.pry
+
       user_playgrounds[:data].each do |user_playground|
         expect(user_playground).to have_key(:id)
         expect(user_playground[:id]).to be_a String
