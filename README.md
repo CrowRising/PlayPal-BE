@@ -10,6 +10,8 @@
 PlayPal is a playground and park finder app. Designed for parents looking for new, fun, safe playgrounds within any given area/location. PlayPal has the ability for registered users to upload pictures, rate and review playgrounds that help inform the community.
                                                   <br><br>
                     <img src="https://www.miracle-recreation.com/content/uploads/2018/11/Image-Header_Park.jpg.webp" width="600" height="400">
+
+This front end app works with our back end app found here: [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/CrowRising/PlayPal-FE)
 ## Purpose
 
 The purpose of the backend for the PlayPal app is to support the overall functionality and effectiveness of the platform. Here are some key purposes of the backend in relation to the project:
@@ -286,13 +288,3 @@ Don't forget to give the project a star! Thanks again!
 ## Planning Tools
 - [![Miro Board](https://img.shields.io/badge/Miro-050038?style=for-the-badge&logo=Miro&logoColor=white)](https://miro.com/app/board/uXjVMDHct-E=/)
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/users/CrowRising/projects/5)
-
-
-## Future Improvements
-- Add Mapbox API to use static satellite images for each playground show page.
-- Include address in User Dashboard page with link to google maps
-- Include link to google maps for all locations from Playground Index Page
-- Use a crime statistics API to determine a 'safety score'
-- Allow users to add attributes to each playground e.g. (Swings, slides, sports fields, pavilions, etc.)
-- Update search filter e.g. (user rating, types of activities, popularity)
-- Use API to find closest ice cream shop to the playground
