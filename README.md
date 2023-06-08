@@ -55,20 +55,32 @@ bundle install
 ```
 rails db:{create,migrate}
 ```
+5. Add Figaro
+```
+bundle exec figaro install
+```
+6. Get API keys from Google and Unsplash<br>
+[![Google](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) ](https://developers.google.com/maps)
+[![Unsplash](https://img.shields.io/badge/Unsplash-000000?style=for-the-badge&logo=Unsplash&logoColor=white) ](https://unsplash.com/developers)<br>
 
-5. Create your Feature Branch 
+7. Add your keys to your `application.yml` like this:
+```
+GOOGLE_API_KEY: <your key here>
+UNSPLASH_API_KEY: <your key here>
+```
+8. Create your Feature Branch 
 ```
 git checkout -b feature/AmazingFeature
 ```
-6. Commit your Changes 
+9. Commit your Changes 
 ```
 git commit -m 'Add some AmazingFeature' 
 ```
-7. Push to the Branch 
+10. Push to the Branch 
 ```
 git push origin feature/AmazingFeature
 ```
-8. Open a Pull Request
+11. Open a Pull Request
 
 ## Endpoints Used
 
