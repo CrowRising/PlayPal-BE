@@ -10,6 +10,8 @@
 PlayPal is a playground and park finder app. Designed for parents looking for new, fun, safe playgrounds within any given area/location. PlayPal has the ability for registered users to upload pictures, rate and review playgrounds that help inform the community.
                                                   <br><br>
                     <img src="https://www.miracle-recreation.com/content/uploads/2018/11/Image-Header_Park.jpg.webp" width="600" height="400">
+
+This front end app works with our back end app found here: [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/CrowRising/PlayPal-FE)
 ## Purpose
 
 The purpose of the backend for the PlayPal app is to support the overall functionality and effectiveness of the platform. Here are some key purposes of the backend in relation to the project:
@@ -55,20 +57,32 @@ bundle install
 ```
 rails db:{create,migrate}
 ```
+5. Add Figaro
+```
+bundle exec figaro install
+```
+6. Get API keys from Google and Unsplash<br>
+[![Google](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) ](https://developers.google.com/maps)
+[![Unsplash](https://img.shields.io/badge/Unsplash-000000?style=for-the-badge&logo=Unsplash&logoColor=white) ](https://unsplash.com/developers)<br>
 
-5. Create your Feature Branch 
+7. Add your keys to your `application.yml` like this:
+```
+GOOGLE_API_KEY: <your key here>
+UNSPLASH_API_KEY: <your key here>
+```
+8. Create your Feature Branch 
 ```
 git checkout -b feature/AmazingFeature
 ```
-6. Commit your Changes 
+9. Commit your Changes 
 ```
 git commit -m 'Add some AmazingFeature' 
 ```
-7. Push to the Branch 
+10. Push to the Branch 
 ```
 git push origin feature/AmazingFeature
 ```
-8. Open a Pull Request
+11. Open a Pull Request
 
 ## Endpoints Used
 
@@ -274,13 +288,3 @@ Don't forget to give the project a star! Thanks again!
 ## Planning Tools
 - [![Miro Board](https://img.shields.io/badge/Miro-050038?style=for-the-badge&logo=Miro&logoColor=white)](https://miro.com/app/board/uXjVMDHct-E=/)
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/users/CrowRising/projects/5)
-
-
-## Future Improvements
-- Add Mapbox API to use static satellite images for each playground show page.
-- Include address in User Dashboard page with link to google maps
-- Include link to google maps for all locations from Playground Index Page
-- Use a crime statistics API to determine a 'safety score'
-- Allow users to add attributes to each playground e.g. (Swings, slides, sports fields, pavilions, etc.)
-- Update search filter e.g. (user rating, types of activities, popularity)
-- Use API to find closest ice cream shop to the playground
