@@ -8,6 +8,9 @@
 ![](app/image/Colorful%20Cute%20Rainbow%20Baby%20Clothes%20Logo.png)
 
 ## About This Project
+### Important to Note
+This is an SOA app and requires both this repo (which is front end) and [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/CrowRising/PlayPal-FE) (which is backend).
+
 ### Mod 3 Group Consultancy Project
 PlayPal is a playground and park finder app. Designed for parents looking for new, fun, safe playgrounds within any given area/location. PlayPal has the ability for registered users to upload pictures, rate and review playgrounds that help inform the community.
                                                   <br><br>
