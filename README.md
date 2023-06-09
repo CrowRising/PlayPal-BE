@@ -8,12 +8,14 @@
 ![](app/image/Colorful%20Cute%20Rainbow%20Baby%20Clothes%20Logo.png)
 
 ## About This Project
+### Important to Note
+This is an SOA app and needs both this repo (front end) AND [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/CrowRising/PlayPal-FE) (back end) in order to be fully functioning.
+
 ### Mod 3 Group Consultancy Project
 PlayPal is a playground and park finder app. Designed for parents looking for new, fun, safe playgrounds within any given area/location. PlayPal has the ability for registered users to upload pictures, rate and review playgrounds that help inform the community.
                                                   <br><br>
                     <img src="https://www.miracle-recreation.com/content/uploads/2018/11/Image-Header_Park.jpg.webp" width="600" height="400">
-
-This back end app works with our front end app found here: [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/CrowRising/PlayPal-FE)
+                    
 ## Purpose
 
 The purpose of the backend for the PlayPal app is to support the overall functionality and effectiveness of the platform. Here are some key purposes of the backend in relation to the project:
